@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1110.5" height="150.5" x="0.5" y="0.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" shape-rendering="crispEdges">
+  <style type="text/css">
+    .white{fill:#212121;}
+    .black{fill:#b91e5c;}
+  </style>
+  <title>honeymustard.svg</title>
+  <defs>
+    <symbol id="white">
+      <rect width="10" height="10" class="white" />
+    </symbol>
+    <symbol id="black">
+      <rect width="10" height="10" class="black" />
+    </symbol>
+  </defs>
+
+  <!-- Letter: H -->
+
+  <!-- column (H,0 -->
+  <use xlink:href="#white" x="0.5" y="40.5" />
+  <use xlink:href="#white" x="0.5" y="50.5" />
+  <use xlink:href="#white" x="0.5" y="130.5" />
+  <use xlink:href="#white" x="0.5" y="140.5" />
+
+  <!-- column (H,1) -->
+  <use xlink:href="#white" x="10.5" y="40.5" />
+  <use xlink:href="#black" x="10.5" y="50.5" />
+  <use xlink:href="#white" x="10.5" y="60.5" />
+  <use xlink:href="#white" x="10.5" y="70.5" />
+  <use xlink:href="#white" x="10.5" y="80.5" />
+  <use xlink:href="#white" x="10.5" y="90.5" />
+  <use xlink:href="#white" x="10.5" y="100.5" />
+  <use xlink:href="#white" x="10.5" y="110.5" />
+  <use xlink:href="#white" x="10.5" y="120.5" />
+  <use xlink:href="#black" x="10.5" y="130.5" />
+  <use xlink:href="#white" x="10.5" y="140.5" />
+
+  <!-- column (H,2) -->
+  <use xlink:href="#white" x="20.5" y="40.5" />
+  <use xlink:href="#black" x="20.5" y="60.5" />
+  <use xlink:href="#black" x="20.5" y="80.5" />
+  <use xlink:href="#black" x="20.5" y="100.5" />
+  <use xlink:href="#black" x="20.5" y="120.5" />
+  <use xlink:href="#white" x="20.5" y="140.5" />
+
+  <!-- column (H,3) -->
+  <use xlink:href="#white" x="30.5" y="40.5" />
+  <use xlink:href="#black" x="30.5" y="50.5" />
+  <use xlink:href="#black" x="30.5" y="70.5" />
+  <use xlink:href="#black" x="30.5" y="90.5" />
+  <use xlink:href="#black" x="30.5" y="110.5" />
+  <use xlink:href="#black" x="30.5" y="130.5" />
+  <use xlink:href="#white" x="30.5" y="140.5" />
+
+  <!-- column (H,4) -->
+  <use xlink:href="#white" x="40.5" y="40.5" />
+  <use xlink:href="#white" x="40.5" y="60.5" />
+  <use xlink:href="#white" x="40.5" y="70.5" />
+  <use xlink:href="#white" x="40.5" y="80.5" />
+  <use xlink:href="#white" x="40.5" y="100.5" />
+  <use xlink:href="#white" x="40.5" y="110.5" />
+  <use xlink:href="#white" x="40.5" y="120.5" />
+  <use xlink:href="#white" x="40.5" y="140.5" />
+
+  <!-- column (H,5) -->
+  <use xlink:href="#white" x="50.5" y="40.5" />
+  <use xlink:href="#white" x="50.5" y="50.5" />
+  <use xlink:href="#white" x="50.5" y="80.5" />
+  <use xlink:href="#black" x="50.5" y="90.5" />
+  <use xlink:href="#white" x="50.5" y="100.5" />
+  <use xlink:href="#white" x="50.5" y="130.5" />
+  <use xlink:href="#white" x="50.5" y="140.5" />
+
+  <!-- column (H,6) -->
+  <use xlink:href="#white" x="60.5" y="80.5" />
+  <use xlink:href="#white" x="60.5" y="100.5" />
+
+  <!-- column (H,7) -->
+  <use xlink:href="#white" x="70.5" y="40.5" />
+  <use xlink:href="#white" x="70.5" y="50.5" />
+  <use xlink:href="#white" x="70.5" y="80.5" />
+  <use xlink:href="#black" x="70.5" y="90.5" />
+  <use xlink:href="#white" x="70.5" y="100.5" />
+  <use xlink:href="#white" x="70.5" y="130.5" />
+  <use xlink:href="#white" x="70.5" y="140.5" />
+
+  <!-- column (H,8) -->
+  <use xlink:href="#white" x="80.5" y="40.5" />
+  <use xlink:href="#white" x="80.5" y="60.5" />
+  <use xlink:href="#white" x="80.5" y="70.5" />
+  <use xlink:href="#white" x="80.5" y="80.5" />
+  <use xlink:href="#white" x="80.5" y="100.5" />
+  <use xlink:href="#white" x="80.5" y="110.5" />
+  <use xlink:href="#white" x="80.5" y="120.5" />
+  <use xlink:href="#white" x="80.5" y="140.5" />
+
+  <!-- column (H,9) -->
+  <use xlink:href="#white" x="90.5" y="40.5" />
+  <use xlink:href="#black" x="90.5" y="50.5" />
+  <use xlink:href="#black" x="90.5" y="70.5" />
+  <use xlink:href="#black" x="90.5" y="90.5" />
+  <use xlink:href="#black" x="90.5" y="110.5" />
+  <use xlink:href="#black" x="90.5" y="130.5" />
+  <use xlink:href="#white" x="90.5" y="140.5" />
+
+  <!-- column (H,10) -->
+  <use xlink:href="#white" x="100.5" y="40.5" />
+  <use xlink:href="#black" x="100.5" y="60.5" />
+  <use xlink:href="#black" x="100.5" y="80.5" />
+  <use xlink:href="#black" x="100.5" y="100.5" />
+  <use xlink:href="#black" x="100.5" y="120.5" />
+  <use xlink:href="#white" x="100.5" y="140.5" />
+
+  <!-- column (H,11) -->
+  <use xlink:href="#white" x="110.5" y="40.5" />
+  <use xlink:href="#black" x="110.5" y="50.5" />
+  <use xlink:href="#white" x="110.5" y="60.5" />
+  <use xlink:href="#white" x="110.5" y="70.5" />
+  <use xlink:href="#white" x="110.5" y="80.5" />
+  <use xlink:href="#white" x="110.5" y="90.5" />
+  <use xlink:href="#white" x="110.5" y="100.5" />
+  <use xlink:href="#white" x="110.5" y="110.5" />
+  <use xlink:href="#white" x="110.5" y="120.5" />
+  <use xlink:href="#black" x="110.5" y="130.5" />
+  <use xlink:href="#white" x="110.5" y="140.5" />
+
+  <!-- column (H,12) -->
+  <use xlink:href="#white" x="120.5" y="40.5" />
+  <use xlink:href="#white" x="120.5" y="50.5" />
+  <use xlink:href="#white" x="120.5" y="60.5" />
+  <use xlink:href="#white" x="120.5" y="120.5" />
+  <use xlink:href="#white" x="120.5" y="130.5" />
+  <use xlink:href="#white" x="120.5" y="140.5" />
+
+  <!-- Letter: O -->
+
+  <!-- column (O,0) -->
+  <use xlink:href="#white" x="140.5" y="80.5" />
+  <use xlink:href="#white" x="140.5" y="90.5" />
+  <use xlink:href="#white" x="140.5" y="100.5" />
+  <use xlink:href="#white" x="140.5" y="110.5" />
+  <use xlink:href="#white" x="140.5" y="120.5" />
+
+  <!-- column (O,1) -->
+  <use xlink:href="#white" x="150.5" y="70.5" />
+  <use xlink:href="#black" x="150.5" y="90.5" />
+  <use xlink:href="#black" x="150.5" y="110.5" />
+  <use xlink:href="#white" x="150.5" y="130.5" />
+
+  <!-- column (O,2) -->
+  <use xlink:href="#white" x="160.5" y="60.5" />
+  <use xlink:href="#black" x="160.5" y="80.5" />
+  <use xlink:href="#white" x="160.5" y="90.5" />
+  <use xlink:href="#white" x="160.5" y="100.5" />
+  <use xlink:href="#white" x="160.5" y="110.5" />
+  <use xlink:href="#black" x="160.5" y="120.5" />
+  <use xlink:href="#white" x="160.5" y="140.5" />
+
+  <!-- column (O,3) -->
+  <use xlink:href="#white" x="170.5" y="60.5" />
+  <use xlink:href="#black" x="170.5" y="70.5" />
+  <use xlink:href="#white" x="170.5" y="80.5" />
+  <use xlink:href="#white" x="170.5" y="120.5" />
+  <use xlink:href="#black" x="170.5" y="130.5" />
+  <use xlink:href="#white" x="170.5" y="140.5" />
+
+  <!-- column (O,4) : center -->
+  <use xlink:href="#white" x="180.5" y="60.5" />
+  <use xlink:href="#white" x="180.5" y="80.5" />
+  <use xlink:href="#white" x="180.5" y="120.5" />
+  <use xlink:href="#white" x="180.5" y="140.5" />
+
+  <!-- column (O,5) -->
+  <use xlink:href="#white" x="190.5" y="60.5" />
+  <use xlink:href="#black" x="190.5" y="70.5" />
+  <use xlink:href="#white" x="190.5" y="80.5" />
+  <use xlink:href="#white" x="190.5" y="120.5" />
+  <use xlink:href="#black" x="190.5" y="130.5" />
+  <use xlink:href="#white" x="190.5" y="140.5" />
+
+  <!-- column (O,6) -->
+  <use xlink:href="#white" x="200.5" y="60.5" />
+  <use xlink:href="#black" x="200.5" y="80.5" />
+  <use xlink:href="#white" x="200.5" y="90.5" />
+  <use xlink:href="#white" x="200.5" y="100.5" />
+  <use xlink:href="#white" x="200.5" y="110.5" />
+  <use xlink:href="#black" x="200.5" y="120.5" />
+  <use xlink:href="#white" x="200.5" y="140.5" />
+
+  <!-- column (O,7) -->
+  <use xlink:href="#white" x="210.5" y="70.5" />
+  <use xlink:href="#black" x="210.5" y="90.5" />
+  <use xlink:href="#black" x="210.5" y="110.5" />
+  <use xlink:href="#white" x="210.5" y="130.5" />
+
+  <!-- column (O,8) -->
+  <use xlink:href="#white" x="220.5" y="80.5" />
+  <use xlink:href="#white" x="220.5" y="90.5" />
+  <use xlink:href="#white" x="220.5" y="100.5" />
+  <use xlink:href="#white" x="220.5" y="110.5" />
+  <use xlink:href="#white" x="220.5" y="120.5" />
+
+  <!-- Letter: N -->
+
+  <!-- column (N,0) -->
+  <use xlink:href="#white" x="240.5" y="60.5" />
+  <use xlink:href="#white" x="240.5" y="70.5" />
+  <use xlink:href="#white" x="240.5" y="80.5" />
+  <use xlink:href="#white" x="240.5" y="90.5" />
+  <use xlink:href="#white" x="240.5" y="100.5" />
+  <use xlink:href="#white" x="240.5" y="110.5" />
+  <use xlink:href="#white" x="240.5" y="120.5" />
+  <use xlink:href="#white" x="240.5" y="130.5" />
+  <use xlink:href="#white" x="240.5" y="140.5" />
+
+  <!-- column (N,1) -->
+  <use xlink:href="#white" x="250.5" y="60.5" />
+  <use xlink:href="#black" x="250.5" y="80.5" />
+  <use xlink:href="#black" x="250.5" y="100.5" />
+  <use xlink:href="#black" x="250.5" y="120.5" />
+  <use xlink:href="#white" x="250.5" y="140.5" />
+
+  <!-- column (N,2) -->
+  <use xlink:href="#white" x="260.5" y="70.5" />
+  <use xlink:href="#white" x="260.5" y="90.5" />
+  <use xlink:href="#white" x="260.5" y="100.5" />
+  <use xlink:href="#white" x="260.5" y="110.5" />
+  <use xlink:href="#white" x="260.5" y="120.5" />
+  <use xlink:href="#white" x="260.5" y="130.5" />
+  <use xlink:href="#white" x="260.5" y="140.5" />
+
+  <!-- column (N,3) -->
+  <use xlink:href="#white" x="270.5" y="60.5" />
+  <use xlink:href="#white" x="270.5" y="80.5" />
+
+  <!-- column (N,4) -->
+  <use xlink:href="#white" x="280.5" y="60.5" />
+  <use xlink:href="#black" x="280.5" y="70.5" />
+  <use xlink:href="#white" x="280.5" y="80.5" />
+
+  <!-- column (N,5) -->
+  <use xlink:href="#white" x="290.5" y="60.5" />
+  <use xlink:href="#white" x="290.5" y="80.5" />
+
+  <!-- column (N,6) -->
+  <use xlink:href="#white" x="300.5" y="60.5" />
+  <use xlink:href="#black" x="300.5" y="70.5" />
+  <use xlink:href="#white" x="300.5" y="90.5" />
+  <use xlink:href="#white" x="300.5" y="100.5" />
+  <use xlink:href="#white" x="300.5" y="110.5" />
+  <use xlink:href="#white" x="300.5" y="120.5" />
+  <use xlink:href="#white" x="300.5" y="130.5" />
+  <use xlink:href="#white" x="300.5" y="140.5" />
+
+  <!-- column (N,7) -->
+  <use xlink:href="#white" x="310.5" y="70.5" />
+  <use xlink:href="#black" x="310.5" y="80.5" />
+  <use xlink:href="#black" x="310.5" y="100.5" />
+  <use xlink:href="#black" x="310.5" y="120.5" />
+  <use xlink:href="#white" x="310.5" y="140.5" />
+
+  <!-- column (N,8) -->
+  <use xlink:href="#white" x="320.5" y="80.5" />
+  <use xlink:href="#white" x="320.5" y="90.5" />
+  <use xlink:href="#white" x="320.5" y="100.5" />
+  <use xlink:href="#white" x="320.5" y="110.5" />
+  <use xlink:href="#white" x="320.5" y="120.5" />
+  <use xlink:href="#white" x="320.5" y="130.5" />
+  <use xlink:href="#white" x="320.5" y="140.5" />
+
+  <!-- Letter: E -->
+
+  <!-- column (E,0) -->
+  <use xlink:href="#white" x="340.5" y="80.5" />
+  <use xlink:href="#white" x="340.5" y="90.5" />
+  <use xlink:href="#white" x="340.5" y="100.5" />
+  <use xlink:href="#white" x="340.5" y="110.5" />
+  <use xlink:href="#white" x="340.5" y="120.5" />
+
+  <!-- column (E,1) -->
+  <use xlink:href="#white" x="350.5" y="70.5" />
+  <use xlink:href="#black" x="350.5" y="90.5" />
+  <use xlink:href="#black" x="350.5" y="110.5" />
+  <use xlink:href="#white" x="350.5" y="130.5" />
+
+  <!-- column (E,2) -->
+  <use xlink:href="#white" x="360.5" y="60.5" />
+  <use xlink:href="#black" x="360.5" y="80.5" />
+  <use xlink:href="#white" x="360.5" y="90.5" />
+  <use xlink:href="#white" x="360.5" y="100.5" />
+  <use xlink:href="#white" x="360.5" y="110.5" />
+  <use xlink:href="#black" x="360.5" y="120.5" />
+  <use xlink:href="#white" x="360.5" y="140.5" />
+
+  <!-- column (E,3) -->
+  <use xlink:href="#white" x="370.5" y="60.5" />
+  <use xlink:href="#black" x="370.5" y="70.5" />
+  <use xlink:href="#white" x="370.5" y="80.5" />
+  <use xlink:href="#white" x="370.5" y="100.5" />
+  <use xlink:href="#white" x="370.5" y="120.5" />
+  <use xlink:href="#black" x="370.5" y="130.5" />
+  <use xlink:href="#white" x="370.5" y="140.5" />
+
+  <!-- column (E,4) -->
+  <use xlink:href="#white" x="380.5" y="60.5" />
+  <use xlink:href="#white" x="380.5" y="80.5" />
+  <use xlink:href="#white" x="380.5" y="100.5" />
+  <use xlink:href="#white" x="380.5" y="120.5" />
+  <use xlink:href="#white" x="380.5" y="140.5" />
+
+  <!-- column (E,5) -->
+  <use xlink:href="#white" x="390.5" y="60.5" />
+  <use xlink:href="#black" x="390.5" y="70.5" />
+  <use xlink:href="#white" x="390.5" y="90.5" />
+  <use xlink:href="#white" x="390.5" y="100.5" />
+  <use xlink:href="#white" x="390.5" y="120.5" />
+  <use xlink:href="#black" x="390.5" y="130.5" />
+  <use xlink:href="#white" x="390.5" y="140.5" />
+
+  <!-- column (E,6) -->
+  <use xlink:href="#white" x="400.5" y="70.5" />
+  <use xlink:href="#black" x="400.5" y="80.5" />
+  <use xlink:href="#white" x="400.5" y="100.5" />
+  <use xlink:href="#white" x="400.5" y="120.5" />
+  <use xlink:href="#white" x="400.5" y="140.5" />
+
+  <!-- column (E,7) -->
+  <use xlink:href="#white" x="410.5" y="80.5" />
+  <use xlink:href="#white" x="410.5" y="90.5" />
+  <use xlink:href="#white" x="410.5" y="100.5" />
+  <use xlink:href="#white" x="410.5" y="100.5" />
+  <use xlink:href="#white" x="410.5" y="130.5" />
+
+  <!-- Letter: Y -->
+
+  <!-- column (Y,0) -->
+  <use xlink:href="#white" x="430.5" y="60.5" />
+  <use xlink:href="#white" x="430.5" y="70.5" />
+  <use xlink:href="#white" x="430.5" y="80.5" />
+  <use xlink:href="#white" x="430.5" y="90.5" />
+  <use xlink:href="#white" x="430.5" y="110.5" />
+  <use xlink:href="#white" x="430.5" y="120.5" />
+  <use xlink:href="#white" x="430.5" y="130.5" />
+
+  <!-- column (Y,1) -->
+  <use xlink:href="#white" x="440.5" y="60.5" />
+  <use xlink:href="#black" x="440.5" y="70.5" />
+  <use xlink:href="#white" x="440.5" y="90.5" />
+  <use xlink:href="#white" x="440.5" y="110.5" />
+  <use xlink:href="#black" x="440.5" y="130.5" />
+  <use xlink:href="#white" x="440.5" y="140.5" />
+
+  <!-- column (Y,2) -->
+  <use xlink:href="#white" x="450.5" y="60.5" />
+  <use xlink:href="#white" x="450.5" y="70.5" />
+  <use xlink:href="#black" x="450.5" y="80.5" />
+  <use xlink:href="#white" x="450.5" y="100.5" />
+  <use xlink:href="#white" x="450.5" y="120.5" />
+  <use xlink:href="#white" x="450.5" y="140.5" />
+
+  <!-- column (Y,3) -->
+  <use xlink:href="#white" x="460.5" y="80.5" />
+  <use xlink:href="#black" x="460.5" y="90.5" />
+  <use xlink:href="#white" x="460.5" y="100.5" />
+  <use xlink:href="#white" x="460.5" y="120.5" />
+  <use xlink:href="#black" x="460.5" y="130.5" />
+  <use xlink:href="#white" x="460.5" y="140.5" />
+
+  <!-- column (Y,4) -->
+  <use xlink:href="#white" x="470.5" y="60.5" />
+  <use xlink:href="#white" x="470.5" y="70.5" />
+  <use xlink:href="#white" x="470.5" y="80.5" />
+  <use xlink:href="#white" x="470.5" y="100.5" />
+  <use xlink:href="#white" x="470.5" y="110.5" />
+  <use xlink:href="#black" x="470.5" y="120.5" />
+  <use xlink:href="#white" x="470.5" y="140.5" />
+
+  <!-- column (Y,5) -->
+  <use xlink:href="#white" x="480.5" y="60.5" />
+  <use xlink:href="#black" x="480.5" y="70.5" />
+  <use xlink:href="#black" x="480.5" y="90.5" />
+  <use xlink:href="#black" x="480.5" y="110.5" />
+  <use xlink:href="#black" x="480.5" y="130.5" />
+  <use xlink:href="#white" x="480.5" y="140.5" />
+
+  <!-- column (Y,6) -->
+  <use xlink:href="#white" x="490.5" y="60.5" />
+  <use xlink:href="#white" x="490.5" y="70.5" />
+  <use xlink:href="#white" x="490.5" y="80.5" />
+  <use xlink:href="#white" x="490.5" y="90.5" />
+  <use xlink:href="#white" x="490.5" y="100.5" />
+  <use xlink:href="#white" x="490.5" y="110.5" />
+  <use xlink:href="#white" x="490.5" y="120.5" />
+  <use xlink:href="#white" x="490.5" y="130.5" />
+
+  <!-- Letter: M -->
+
+  <!-- column (M,0) -->
+  <use xlink:href="#white" x="510.5" y="60.5" />
+  <use xlink:href="#white" x="510.5" y="70.5" />
+  <use xlink:href="#white" x="510.5" y="80.5" />
+  <use xlink:href="#white" x="510.5" y="90.5" />
+  <use xlink:href="#white" x="510.5" y="100.5" />
+  <use xlink:href="#white" x="510.5" y="110.5" />
+  <use xlink:href="#white" x="510.5" y="120.5" />
+  <use xlink:href="#white" x="510.5" y="130.5" />
+  <use xlink:href="#white" x="510.5" y="140.5" />
+
+  <!-- column (M,1) -->
+  <use xlink:href="#white" x="520.5" y="60.5" />
+  <use xlink:href="#black" x="520.5" y="70.5" />
+  <use xlink:href="#black" x="520.5" y="90.5" />
+  <use xlink:href="#black" x="520.5" y="110.5" />
+  <use xlink:href="#black" x="520.5" y="130.5" />
+  <use xlink:href="#white" x="520.5" y="140.5" />
+
+  <!-- column (M,2) -->
+  <use xlink:href="#white" x="530.5" y="70.5" />
+  <use xlink:href="#black" x="530.5" y="80.5" />
+  <use xlink:href="#white" x="530.5" y="100.5" />
+  <use xlink:href="#white" x="530.5" y="110.5" />
+  <use xlink:href="#white" x="530.5" y="120.5" />
+  <use xlink:href="#white" x="530.5" y="130.5" />
+  <use xlink:href="#white" x="530.5" y="140.5" />
+
+  <!-- column (M,3) -->
+  <use xlink:href="#white" x="540.5" y="60.5" />
+  <use xlink:href="#black" x="540.5" y="70.5" />
+  <use xlink:href="#white" x="540.5" y="90.5" />
+
+  <!-- column (M,4) -->
+  <use xlink:href="#white" x="550.5" y="60.5" />
+  <use xlink:href="#black" x="550.5" y="80.5" />
+  <use xlink:href="#white" x="550.5" y="100.5" />
+
+  <!-- column (M,5) -->
+  <use xlink:href="#white" x="560.5" y="70.5" />
+  <use xlink:href="#black" x="560.5" y="90.5" />
+  <use xlink:href="#white" x="560.5" y="100.5" />
+
+  <!-- column (M,6) -->
+  <use xlink:href="#white" x="570.5" y="60.5" />
+  <use xlink:href="#black" x="570.5" y="80.5" />
+  <use xlink:href="#white" x="570.5" y="90.5" />
+
+  <!-- column (M,7) -->
+  <use xlink:href="#white" x="580.5" y="60.5" />
+  <use xlink:href="#black" x="580.5" y="70.5" />
+  <use xlink:href="#black" x="580.5" y="90.5" />
+  <use xlink:href="#white" x="580.5" y="100.5" />
+  <use xlink:href="#white" x="580.5" y="110.5" />
+  <use xlink:href="#white" x="580.5" y="120.5" />
+  <use xlink:href="#white" x="580.5" y="130.5" />
+  <use xlink:href="#white" x="580.5" y="140.5" />
+
+  <!-- column (M,8) -->
+  <use xlink:href="#white" x="590.5" y="70.5" />
+  <use xlink:href="#black" x="590.5" y="80.5" />
+  <use xlink:href="#black" x="590.5" y="100.5" />
+  <use xlink:href="#black" x="590.5" y="120.5" />
+  <use xlink:href="#white" x="590.5" y="140.5" />
+
+  <!-- column (M,9) -->
+  <use xlink:href="#white" x="600.5" y="80.5" />
+  <use xlink:href="#white" x="600.5" y="90.5" />
+  <use xlink:href="#white" x="600.5" y="100.5" />
+  <use xlink:href="#white" x="600.5" y="110.5" />
+  <use xlink:href="#white" x="600.5" y="120.5" />
+  <use xlink:href="#white" x="600.5" y="130.5" />
+  <use xlink:href="#white" x="600.5" y="140.5" />
+
+  <!-- Letter: U -->
+
+  <!-- column (U,0) -->
+  <use xlink:href="#white" x="620.5" y="60.5" />
+  <use xlink:href="#white" x="620.5" y="70.5" />
+  <use xlink:href="#white" x="620.5" y="80.5" />
+  <use xlink:href="#white" x="620.5" y="90.5" />
+  <use xlink:href="#white" x="620.5" y="100.5" />
+  <use xlink:href="#white" x="620.5" y="110.5" />
+  <use xlink:href="#white" x="620.5" y="120.5" />
+  <use xlink:href="#white" x="620.5" y="130.5" />
+
+  <!-- column (U,1) -->
+  <use xlink:href="#white" x="630.5" y="60.5" />
+  <use xlink:href="#black" x="630.5" y="70.5" />
+  <use xlink:href="#black" x="630.5" y="90.5" />
+  <use xlink:href="#black" x="630.5" y="110.5" />
+  <use xlink:href="#black" x="630.5" y="130.5" />
+  <use xlink:href="#white" x="630.5" y="140.5" />
+
+  <!-- column (U,2) -->
+  <use xlink:href="#white" x="640.5" y="60.5" />
+  <use xlink:href="#white" x="640.5" y="70.5" />
+  <use xlink:href="#white" x="640.5" y="80.5" />
+  <use xlink:href="#white" x="640.5" y="90.5" />
+  <use xlink:href="#white" x="640.5" y="100.5" />
+  <use xlink:href="#white" x="640.5" y="110.5" />
+  <use xlink:href="#black" x="640.5" y="120.5" />
+  <use xlink:href="#white" x="640.5" y="140.5" />
+
+  <!-- column (U,3) -->
+  <use xlink:href="#white" x="650.5" y="110.5" />
+  <use xlink:href="#black" x="650.5" y="130.5" />
+  <use xlink:href="#white" x="650.5" y="140.5" />
+
+  <!-- column (U,4) -->
+  <use xlink:href="#white" x="660.5" y="110.5" />
+  <use xlink:href="#black" x="660.5" y="120.5" />
+  <use xlink:href="#white" x="660.5" y="140.5" />
+
+  <!-- column (U,5) -->
+  <use xlink:href="#white" x="670.5" y="60.5" />
+  <use xlink:href="#white" x="670.5" y="70.5" />
+  <use xlink:href="#white" x="670.5" y="80.5" />
+  <use xlink:href="#white" x="670.5" y="90.5" />
+  <use xlink:href="#white" x="670.5" y="100.5" />
+  <use xlink:href="#black" x="670.5" y="110.5" />
+  <use xlink:href="#white" x="670.5" y="130.5" />
+
+  <!-- column (U,6) -->
+  <use xlink:href="#white" x="680.5" y="60.5" />
+  <use xlink:href="#black" x="680.5" y="80.5" />
+  <use xlink:href="#black" x="680.5" y="100.5" />
+  <use xlink:href="#black" x="680.5" y="120.5" />
+  <use xlink:href="#white" x="680.5" y="140.5" />
+
+  <!-- column (U,7) -->
+  <use xlink:href="#white" x="690.5" y="60.5" />
+  <use xlink:href="#white" x="690.5" y="70.5" />
+  <use xlink:href="#white" x="690.5" y="80.5" />
+  <use xlink:href="#white" x="690.5" y="90.5" />
+  <use xlink:href="#white" x="690.5" y="100.5" />
+  <use xlink:href="#white" x="690.5" y="110.5" />
+  <use xlink:href="#white" x="690.5" y="120.5" />
+  <use xlink:href="#white" x="690.5" y="130.5" />
+  <use xlink:href="#white" x="690.5" y="140.5" />
+
+  <!-- Letter: S -->
+
+  <!-- column (S,0) -->
+  <use xlink:href="#white" x="710.5" y="70.5" />
+  <use xlink:href="#white" x="710.5" y="80.5" />
+  <use xlink:href="#white" x="710.5" y="90.5" />
+  <use xlink:href="#white" x="710.5" y="100.5" />
+  <use xlink:href="#white" x="710.5" y="120.5" />
+  <use xlink:href="#white" x="710.5" y="130.5" />
+
+  <!-- column (S,1) -->
+  <use xlink:href="#white" x="720.5" y="60.5" />
+  <use xlink:href="#black" x="720.5" y="80.5" />
+  <use xlink:href="#black" x="720.5" y="100.5" />
+  <use xlink:href="#white" x="720.5" y="110.5" />
+  <use xlink:href="#black" x="720.5" y="120.5" />
+  <use xlink:href="#white" x="720.5" y="140.5" />
+
+  <!-- column (S,2) -->
+  <use xlink:href="#white" x="730.5" y="60.5" />
+  <use xlink:href="#black" x="730.5" y="70.5" />
+  <use xlink:href="#white" x="730.5" y="90.5" />
+  <use xlink:href="#white" x="730.5" y="110.5" />
+  <use xlink:href="#black" x="730.5" y="130.5" />
+  <use xlink:href="#white" x="730.5" y="140.5" />
+
+  <!-- column (S,3) -->
+  <use xlink:href="#white" x="740.5" y="60.5" />
+  <use xlink:href="#black" x="740.5" y="80.5" />
+  <use xlink:href="#white" x="740.5" y="90.5" />
+  <use xlink:href="#black" x="740.5" y="100.5" />
+  <use xlink:href="#white" x="740.5" y="110.5" />
+  <use xlink:href="#black" x="740.5" y="120.5" />
+  <use xlink:href="#white" x="740.5" y="140.5" />
+
+  <!-- column (S,4) -->
+  <use xlink:href="#white" x="750.5" y="60.5" />
+  <use xlink:href="#black" x="750.5" y="70.5" />
+  <use xlink:href="#white" x="750.5" y="90.5" />
+  <use xlink:href="#black" x="750.5" y="110.5" />
+  <use xlink:href="#white" x="750.5" y="120.5" />
+  <use xlink:href="#black" x="750.5" y="130.5" />
+  <use xlink:href="#white" x="750.5" y="140.5" />
+
+  <!-- column (S,5) -->
+  <use xlink:href="#white" x="760.5" y="60.5" />
+  <use xlink:href="#black" x="760.5" y="80.5" />
+  <use xlink:href="#white" x="760.5" y="90.5" />
+  <use xlink:href="#black" x="760.5" y="100.5" />
+  <use xlink:href="#black" x="760.5" y="120.5" />
+  <use xlink:href="#white" x="760.5" y="140.5" />
+
+  <!-- column (S,6) -->
+  <use xlink:href="#white" x="770.5" y="70.5" />
+  <use xlink:href="#white" x="770.5" y="80.5" />
+  <use xlink:href="#white" x="770.5" y="100.5" />
+  <use xlink:href="#white" x="770.5" y="110.5" />
+  <use xlink:href="#white" x="770.5" y="120.5" />
+  <use xlink:href="#white" x="770.5" y="130.5" />
+
+  <!-- Letter: T -->
+
+  <!-- column (T,0) -->
+  <use xlink:href="#white" x="790.5" y="60.5" />
+  <use xlink:href="#white" x="790.5" y="70.5" />
+  <use xlink:href="#white" x="790.5" y="80.5" />
+  <use xlink:href="#white" x="790.5" y="90.5" />
+
+  <!-- column (T,1) -->
+  <use xlink:href="#white" x="800.5" y="40.5" />
+  <use xlink:href="#white" x="800.5" y="50.5" />
+  <use xlink:href="#white" x="800.5" y="60.5" />
+  <use xlink:href="#black" x="800.5" y="80.5" />
+  <use xlink:href="#white" x="800.5" y="90.5" />
+  <use xlink:href="#white" x="800.5" y="100.5" />
+  <use xlink:href="#white" x="800.5" y="110.5" />
+  <use xlink:href="#white" x="800.5" y="120.5" />
+  <use xlink:href="#white" x="800.5" y="130.5" />
+
+  <!-- column (T,2) -->
+  <use xlink:href="#white" x="810.5" y="40.5" />
+  <use xlink:href="#black" x="810.5" y="50.5" />
+  <use xlink:href="#black" x="810.5" y="70.5" />
+  <use xlink:href="#black" x="810.5" y="90.5" />
+  <use xlink:href="#black" x="810.5" y="110.5" />
+  <use xlink:href="#black" x="810.5" y="130.5" />
+  <use xlink:href="#white" x="810.5" y="140.5" />
+
+  <!-- column (T,3) -->
+  <use xlink:href="#white" x="820.5" y="40.5" />
+  <use xlink:href="#black" x="820.5" y="60.5" />
+  <use xlink:href="#black" x="820.5" y="80.5" />
+  <use xlink:href="#black" x="820.5" y="100.5" />
+  <use xlink:href="#black" x="820.5" y="120.5" />
+  <use xlink:href="#white" x="820.5" y="140.5" />
+
+  <!-- column (T,4) -->
+  <use xlink:href="#white" x="830.5" y="40.5" />
+  <use xlink:href="#white" x="830.5" y="50.5" />
+  <use xlink:href="#white" x="830.5" y="60.5" />
+  <use xlink:href="#black" x="830.5" y="70.5" />
+  <use xlink:href="#white" x="830.5" y="90.5" />
+  <use xlink:href="#white" x="830.5" y="100.5" />
+  <use xlink:href="#white" x="830.5" y="110.5" />
+  <use xlink:href="#black" x="830.5" y="130.5" />
+  <use xlink:href="#white" x="830.5" y="140.5" />
+
+  <!-- column (T,5) -->
+  <use xlink:href="#white" x="840.5" y="60.5" />
+  <use xlink:href="#black" x="840.5" y="80.5" />
+  <use xlink:href="#white" x="840.5" y="90.5" />
+  <use xlink:href="#white" x="840.5" y="120.5" />
+  <use xlink:href="#white" x="840.5" y="140.5" />
+
+  <!-- column (T,6) -->
+  <use xlink:href="#white" x="850.5" y="60.5" />
+  <use xlink:href="#white" x="850.5" y="70.5" />
+  <use xlink:href="#white" x="850.5" y="80.5" />
+  <use xlink:href="#white" x="850.5" y="90.5" />
+  <use xlink:href="#white" x="850.5" y="120.5" />
+  <use xlink:href="#white" x="850.5" y="130.5" />
+  <use xlink:href="#white" x="850.5" y="140.5" />
+
+  <!-- Letter: A -->
+
+  <!-- column (A,0) -->
+  <use xlink:href="#white" x="870.5" y="80.5" />
+  <use xlink:href="#white" x="870.5" y="90.5" />
+  <use xlink:href="#white" x="870.5" y="100.5" />
+  <use xlink:href="#white" x="870.5" y="110.5" />
+  <use xlink:href="#white" x="870.5" y="120.5" />
+
+  <!-- column (A,1) -->
+  <use xlink:href="#white" x="880.5" y="70.5" />
+  <use xlink:href="#black" x="880.5" y="80.5" />
+  <use xlink:href="#black" x="880.5" y="100.5" />
+  <use xlink:href="#black" x="880.5" y="120.5" />
+  <use xlink:href="#white" x="880.5" y="130.5" />
+
+  <!-- column (A,2) -->
+  <use xlink:href="#white" x="890.5" y="60.5" />
+  <use xlink:href="#black" x="890.5" y="70.5" />
+  <use xlink:href="#white" x="890.5" y="90.5" />
+  <use xlink:href="#white" x="890.5" y="100.5" />
+  <use xlink:href="#white" x="890.5" y="110.5" />
+  <use xlink:href="#black" x="890.5" y="130.5" />
+  <use xlink:href="#white" x="890.5" y="140.5" />
+
+  <!-- column (A,3) -->
+  <use xlink:href="#white" x="900.5" y="60.5" />
+  <use xlink:href="#black" x="900.5" y="80.5" />
+  <use xlink:href="#white" x="900.5" y="90.5" />
+  <use xlink:href="#white" x="900.5" y="110.5" />
+  <use xlink:href="#black" x="900.5" y="120.5" />
+  <use xlink:href="#white" x="900.5" y="140.5" />
+
+  <!-- column (A,4) -->
+  <use xlink:href="#white" x="910.5" y="60.5" />
+  <use xlink:href="#black" x="910.5" y="70.5" />
+  <use xlink:href="#white" x="910.5" y="90.5" />
+  <use xlink:href="#white" x="910.5" y="100.5" />
+  <use xlink:href="#white" x="910.5" y="110.5" />
+  <use xlink:href="#black" x="910.5" y="130.5" />
+  <use xlink:href="#white" x="910.5" y="140.5" />
+
+  <!-- column (A,5) -->
+  <use xlink:href="#white" x="920.5" y="70.5" />
+  <use xlink:href="#black" x="920.5" y="80.5" />
+  <use xlink:href="#black" x="920.5" y="100.5" />
+  <use xlink:href="#black" x="920.5" y="120.5" />
+  <use xlink:href="#white" x="920.5" y="130.5" />
+
+  <!-- column (A,6) -->
+  <use xlink:href="#white" x="930.5" y="60.5" />
+  <use xlink:href="#black" x="930.5" y="70.5" />
+  <use xlink:href="#black" x="930.5" y="90.5" />
+  <use xlink:href="#black" x="930.5" y="110.5" />
+  <use xlink:href="#black" x="930.5" y="130.5" />
+  <use xlink:href="#white" x="930.5" y="140.5" />
+
+  <!-- column (A,7) -->
+  <use xlink:href="#white" x="940.5" y="60.5" />
+  <use xlink:href="#white" x="940.5" y="70.5" />
+  <use xlink:href="#white" x="940.5" y="80.5" />
+  <use xlink:href="#white" x="940.5" y="90.5" />
+  <use xlink:href="#white" x="940.5" y="100.5" />
+  <use xlink:href="#white" x="940.5" y="110.5" />
+  <use xlink:href="#white" x="940.5" y="120.5" />
+  <use xlink:href="#white" x="940.5" y="130.5" />
+  <use xlink:href="#white" x="940.5" y="140.5" />
+
+  <!-- Letter: R -->
+
+  <!-- column (R,0) -->
+  <use xlink:href="#white" x="960.5" y="60.5" />
+  <use xlink:href="#white" x="960.5" y="70.5" />
+  <use xlink:href="#white" x="960.5" y="80.5" />
+  <use xlink:href="#white" x="960.5" y="90.5" />
+  <use xlink:href="#white" x="960.5" y="100.5" />
+  <use xlink:href="#white" x="960.5" y="110.5" />
+  <use xlink:href="#white" x="960.5" y="120.5" />
+  <use xlink:href="#white" x="960.5" y="130.5" />
+  <use xlink:href="#white" x="960.5" y="140.5" />
+
+  <!-- column (R,1) -->
+  <use xlink:href="#white" x="970.5" y="60.5" />
+  <use xlink:href="#black" x="970.5" y="70.5" />
+  <use xlink:href="#black" x="970.5" y="90.5" />
+  <use xlink:href="#black" x="970.5" y="110.5" />
+  <use xlink:href="#black" x="970.5" y="130.5" />
+  <use xlink:href="#white" x="970.5" y="140.5" />
+
+  <!-- column (R,2) -->
+  <use xlink:href="#white" x="980.5" y="60.5" />
+  <use xlink:href="#white" x="980.5" y="80.5" />
+  <use xlink:href="#white" x="980.5" y="90.5" />
+  <use xlink:href="#white" x="980.5" y="100.5" />
+  <use xlink:href="#white" x="980.5" y="120.5" />
+  <use xlink:href="#white" x="980.5" y="130.5" />
+  <use xlink:href="#white" x="980.5" y="140.5" />
+
+  <!-- column (R,3) -->
+  <use xlink:href="#white" x="990.5" y="60.5" />
+  <use xlink:href="#black" x="990.5" y="70.5" />
+  <use xlink:href="#white" x="990.5" y="80.5" />
+  <use xlink:href="#white" x="990.5" y="100.5" />
+  <use xlink:href="#black" x="990.5" y="110.5" />
+  <use xlink:href="#white" x="990.5" y="120.5" />
+
+  <!-- column (R,4) -->
+  <use xlink:href="#white" x="1000.5" y="60.5" />
+  <use xlink:href="#black" x="1000.5" y="80.5" />
+  <use xlink:href="#white" x="1000.5" y="90.5" />
+  <use xlink:href="#white" x="1000.5" y="100.5" />
+  <use xlink:href="#black" x="1000.5" y="120.5" />
+  <use xlink:href="#white" x="1000.5" y="130.5" />
+  <use xlink:href="#white" x="1000.5" y="140.5" />
+
+  <!-- column (R,5) -->
+  <use xlink:href="#white" x="1010.5" y="70.5" />
+  <use xlink:href="#black" x="1010.5" y="90.5" />
+  <use xlink:href="#white" x="1010.5" y="110.5" />
+  <use xlink:href="#black" x="1010.5" y="130.5" />
+  <use xlink:href="#white" x="1010.5" y="140.5" />
+
+  <!-- column (R,6) -->
+  <use xlink:href="#white" x="1020.5" y="80.5" />
+  <use xlink:href="#white" x="1020.5" y="90.5" />
+  <use xlink:href="#white" x="1020.5" y="100.5" />
+  <use xlink:href="#white" x="1020.5" y="120.5" />
+  <use xlink:href="#white" x="1020.5" y="130.5" />
+  <use xlink:href="#white" x="1020.5" y="140.5" />
+
+  <!-- Letter: D -->
+
+  <!-- column (D,0) -->
+  <use xlink:href="#white" x="1040.5" y="90.5" />
+  <use xlink:href="#white" x="1040.5" y="100.5" />
+  <use xlink:href="#white" x="1040.5" y="110.5" />
+  <use xlink:href="#white" x="1040.5" y="120.5" />
+  <use xlink:href="#white" x="1040.5" y="130.5" />
+
+  <!-- column (D,1) -->
+  <use xlink:href="#white" x="1050.5" y="80.5" />
+  <use xlink:href="#black" x="1050.5" y="90.5" />
+  <use xlink:href="#black" x="1050.5" y="110.5" />
+  <use xlink:href="#black" x="1050.5" y="130.5" />
+  <use xlink:href="#white" x="1050.5" y="140.5" />
+
+  <!-- column (D,2) -->
+  <use xlink:href="#white" x="1060.5" y="80.5" />
+  <use xlink:href="#white" x="1060.5" y="100.5" />
+  <use xlink:href="#white" x="1060.5" y="110.5" />
+  <use xlink:href="#white" x="1060.5" y="120.5" />
+  <use xlink:href="#white" x="1060.5" y="140.5" />
+
+  <!-- column (D,3) -->
+  <use xlink:href="#white" x="1070.5" y="40.5" />
+  <use xlink:href="#white" x="1070.5" y="50.5" />
+  <use xlink:href="#white" x="1070.5" y="60.5" />
+  <use xlink:href="#white" x="1070.5" y="70.5" />
+  <use xlink:href="#white" x="1070.5" y="80.5" />
+  <use xlink:href="#black" x="1070.5" y="90.5" />
+  <use xlink:href="#white" x="1070.5" y="100.5" />
+  <use xlink:href="#white" x="1070.5" y="120.5" />
+  <use xlink:href="#black" x="1070.5" y="130.5" />
+  <use xlink:href="#white" x="1070.5" y="140.5" />
+
+  <!-- column (D,4) -->
+  <use xlink:href="#white" x="1080.5" y="40.5" />
+  <use xlink:href="#black" x="1080.5" y="60.5" />
+  <use xlink:href="#black" x="1080.5" y="80.5" />
+  <use xlink:href="#white" x="1080.5" y="100.5" />
+  <use xlink:href="#white" x="1080.5" y="110.5" />
+  <use xlink:href="#white" x="1080.5" y="120.5" />
+  <use xlink:href="#white" x="1080.5" y="140.5" />
+
+  <!-- column (D,5) -->
+  <use xlink:href="#white" x="1090.5" y="40.5" />
+  <use xlink:href="#black" x="1090.5" y="50.5" />
+  <use xlink:href="#black" x="1090.5" y="70.5" />
+  <use xlink:href="#black" x="1090.5" y="90.5" />
+  <use xlink:href="#black" x="1090.5" y="110.5" />
+  <use xlink:href="#black" x="1090.5" y="130.5" />
+  <use xlink:href="#white" x="1090.5" y="140.5" />
+
+  <!-- column (D,6) -->
+  <use xlink:href="#white" x="1100.5" y="40.5" />
+  <use xlink:href="#white" x="1100.5" y="50.5" />
+  <use xlink:href="#white" x="1100.5" y="60.5" />
+  <use xlink:href="#white" x="1100.5" y="70.5" />
+  <use xlink:href="#white" x="1100.5" y="80.5" />
+  <use xlink:href="#white" x="1100.5" y="90.5" />
+  <use xlink:href="#white" x="1100.5" y="100.5" />
+  <use xlink:href="#white" x="1100.5" y="110.5" />
+  <use xlink:href="#white" x="1100.5" y="120.5" />
+  <use xlink:href="#white" x="1100.5" y="130.5" />
+  <use xlink:href="#white" x="1100.5" y="140.5" />
+</svg>
