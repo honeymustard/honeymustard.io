@@ -13,7 +13,7 @@
             <div class="emulator__text"><span class="is-cwd" v-if="line.cwd">{{line.cwd}}&gt; </span>{{line.text}}</div>
           </template>
           <template v-else-if="line.type === 'link'">
-            <div class="emulator__link"><a :href="line.url" target="_blank">{{line.url}}</a></div>
+            <div class="emulator__link">=&gt; <a :href="line.url" target="_blank">{{line.url}}</a></div>
           </template>
         </li>
       </ul>
@@ -30,7 +30,9 @@
   import { Component, Prop, Vue } from 'vue-property-decorator';
   import Shell from '@/core/fs/shell';
   import Resume from 'raw-loader!@/static/resume.md';
+  import Projects from 'raw-loader!@/static/projects.md';
   import Links from 'raw-loader!@/static/links.md';
+  import Stack from 'raw-loader!@/static/stack.md';
 
   @Component
   export default class Emulator extends Vue {
@@ -41,15 +43,16 @@
 
     constructor() {
       super();
-      let home = this.shell
-        .mkdir('c:', '30-09-2020')
-        .mkdir('users', '30-09-2020')
-        .mkdir('adrian', '02-10-2020');
+      let home = this.shell.fs
+        .mkdir('c:', '2020-09-30')
+        .mkdir('users', '2020-09-30')
+        .mkdir('adrian', '2020-10-02');
 
       home
-        .touch('resume', '02-10-2020', Resume)
-        .touch('projects', '02-10-2020', '')
-        .touch('links', '03-10-2020', Links);
+        .touch('resume', '2020-10-02', Resume)
+        .touch('projects', '2020-10-02', Projects)
+        .touch('links', '2020-10-03', Links)
+        .touch('stack', '2020-10-06', Stack);
 
       this.shell.cd('users/adrian');
     }
@@ -94,12 +97,24 @@
             break;
           case 'ls':
           case 'dir':
-            this.shell.ls().map(e => this.pushText(`${e.created} ${e.name}`));
+            this.pushText(`${'created'.padEnd(12)}${'type'.padEnd(8)}name`);
+            this.shell.ls()
+              .map(e => this.pushText(`${e.created.padEnd(12)}${`[${e.type}]`.padEnd(8)}${e.name}`));
             break;
           case 'help':
-            this.pushText(`ls             - list directory contents`);
-            this.pushText(`cd [directory] - move into directory`);
-            this.pushText(`cat [filename] - show contents of file`);
+            this.pushText(`command  param   description`);
+            this.pushText(`ls               list directory contents`);
+            this.pushText(`pwd              print working directory`);
+            this.pushText(`clear            clear screen buffer`);
+            this.pushText(`whois            show whois information`);
+            this.pushText(`version          show version`);
+            this.pushText(`help             show command list`);
+            this.pushText(`cd       [dir]   move into directory`);
+            this.pushText(`mkdir    [dir]   make directory`);
+            this.pushText(`rmdir    [dir]   remove directory`);
+            this.pushText(`cat      [file]  show contents of file`);
+            this.pushText(`touch    [file]  create file`);
+            this.pushText(`rm       [file]  remove file`);
             break;
           case 'cd':
             this.shell.cd(args[1]);
@@ -111,7 +126,7 @@
             this.shell.rmdir(args[1]);
             break;
           case 'mkdir':
-            throw new Error('Not implemented');
+            this.shell.mkdir(args[1], moment().format('YYYY-MM-DD'));
             break;
           case 'touch':
             throw new Error('Not implemented');
@@ -119,11 +134,17 @@
           case 'cat':
             this.shell.cat(args[1]).split('\n').forEach(l => {
               if (l.startsWith('http')) this.pushLink(l);
-              else this.pushText(l);
+              else this.pushText(l || ' ');
             });
             break;
           case 'version':
             this.pushText(this.shell.version);
+            break;
+          case 'whois':
+            this.pushText(`Adrian Solumsmo (${moment().diff('1988-08-23', 'years')})`);
+            this.pushText('adrian.solumsmo@gmail.com');
+            this.pushText('--');
+            this.pushText('.NET & JavaScript developer at Dagens Næringsliv');
             break;
           case 'exit':
           case 'quit':
@@ -156,8 +177,8 @@
     flex-direction: column;
     box-shadow: 0px 20px 40px -20px #000a;
     display: grid;
-    grid-template-rows: 32px auto 38px;
-    row-gap: 10px;
+    grid-template-rows: 34px auto 34px;
+    row-gap: 6px;
     padding: 10px;
 
     ::selection {
@@ -251,7 +272,7 @@
 
   .emulator__link,
   .emulator__text {
-    font-family: 'Roboto Mono', serif;
+    font-family: 'Roboto Mono', monospace, sans-serif;
     white-space: pre-wrap;
     font-size: 16px;
 
@@ -266,27 +287,26 @@
 
   .emulator__foot {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 5px;
     grid-template-columns: auto minmax(0, 1fr) 6px;
   }
 
-  .emulator__pwd {
+  .emulator__pwd,
+  .emulator__input {
     display: flex;
     align-items: center;
-    font-family: 'Roboto Mono', serif;
+    font-family: 'Roboto Mono', monospace, sans-serif;
     color: #fff;
+    font-size: 16px;
   }
 
   .emulator__input {
     appearance: none;
     border: none;
     width: 100%;
-    height: 37px;
-    padding: 0 10px;
+    padding: 0 6px;
     background-color: #222;
     color: $text;
-    font-size: 20px;
-    line-height: 1;
     outline: none;
     caret-color: transparent;
     position: relative;
@@ -295,6 +315,10 @@
 
     &:hover {
       border-color: #444;
+    }
+
+    &:focus {
+      border-color: #222;
     }
   }
 </style>

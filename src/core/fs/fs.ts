@@ -1,6 +1,6 @@
 import { v4 as uuid } from 'uuid';
 
-export default class FileNode {
+export class FileNode {
   public id: string = '';
   public type: string = '';
   public name: string = '';
@@ -9,8 +9,9 @@ export default class FileNode {
   public parent: FileNode = null as any;
   public children: Array<FileNode> = [];
 
-  constructor() {
+  constructor(init?: Partial<FileNode>) {
     this.id = uuid();
+    Object.assign(this, init);
   }
 
   public mkdir(name: string, created: string): FileNode {
@@ -32,5 +33,18 @@ export default class FileNode {
     node.parent = this;
     this.children.push(node);
     return this;
+  }
+}
+
+export class FileSystem {
+  public current: FileNode = new FileNode();
+  public root: FileNode = new FileNode();
+
+  public mkdir(name: string, created: string): FileNode {
+    this.root.type = 'dir';
+    this.root.name = name;
+    this.root.created = created;
+    this.current = this.root;
+    return this.root;
   }
 }

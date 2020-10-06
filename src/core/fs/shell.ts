@@ -1,99 +1,78 @@
-import FileNode from './file-node';
+import { FileNode, FileSystem } from './fs';
 
 export default class Shell {
   public version: string = '0.1.0';
-  private current: FileNode = new FileNode();
-  private root: FileNode = new FileNode();
-
-  public mkdir(name: string, created: string): FileNode {
-    this.root.type = 'dir';
-    this.root.name = name;
-    this.root.created = created;
-    this.current = this.root;
-    return this.root;
-  }
+  public fs: FileSystem = new FileSystem();
 
   public cat(file: string): string {
-    let files = this.current.children.filter(e => e.name === file && e.type === 'file');
+    let files = this.fs.current.children.filter(e => e.name === file && e.type === 'file');
     if (files.length > 0) return files[0].content;
     else throw new Error('No such file');
   }
 
   public rm(name: string): void {
-    for (let i = 0; i < this.current.children.length; i++) {
-      let node = this.current.children[i];
-      if (node.name === name) {
-        if (node.type === 'dir') throw new Error('Cannot remove directory');
-        this.current.children.splice(i, 1);
-        return;
-      }
-    }
-    throw new Error('No such file');
+    let index = this.fs.current.children.findIndex(e => e.name === name && e.type === 'file');
+    if (index !== -1) this.fs.current.children.splice(index, 1);
+    else throw new Error('No such file');
   }
 
   public rmdir(name: string): void {
-    for (let i = 0; i < this.current.children.length; i++) {
-      let node = this.current.children[i];
-      if (node.name === name) {
-        if (node.type === 'file') throw new Error('No such directory');
-        this.current.children.splice(i, 1);
-        return;
-      }
-    }
+    let index = this.fs.current.children.findIndex(e => e.name === name && e.type === 'dir');
+    if (index !== -1) this.fs.current.children.splice(index, 1);
+    else throw new Error('No such directory');
+  }
+
+  public mkdir(name: string, created: string): void {
+    let index = this.fs.current.children.findIndex(e => e.name === name && e.type === 'dir');
+    if (index !== -1) throw new Error('Directory already exists');
+    else this.fs.current.mkdir(name, created);
   }
 
   public cd(path: string): void {
     let parts = path.split('/');
-    let dirname = parts.shift();
+    let name = parts.shift();
 
-    if (dirname === '.') return;
-    if (dirname === '..') {
-      this.current = this.current.parent !== null ? this.current.parent : this.current;
+    if (name === '.') return;
+    if (name === '..') {
+      this.fs.current = this.fs.current.parent !== null ? this.fs.current.parent : this.fs.current;
       return;
     }
 
-    let next = this.current.children.filter(e => e.name === dirname && e.type === 'dir');
-    if (next.length === 1) {
-      this.current = next[0];
+    let index = this.fs.current.children.findIndex(e => e.name === name && e.type === 'dir');
+    if (index !== -1) {
+      this.fs.current = this.fs.current.children[index];
       if (parts.length > 0) {
         this.cd(parts.join('/'));
       }
     }
-    else {
-      throw new Error('No such directory');
-    }
+    else throw new Error('No such directory');
   }
 
   public ls(): Array<FileNode> {
     let current = new FileNode();
     current.name = '.';
-    current.created = this.current.created;
+    current.created = this.fs.current.created;
     current.type = 'dir';
 
-    if (this.current.parent == null) {
-      return [current].concat(this.current.children);
+    if (this.fs.current.parent == null) {
+      return [current].concat(this.fs.current.children);
     }
 
     let parent = new FileNode();
     parent.name = '..';
-    parent.created = this.current.parent.created;
+    parent.created = this.fs.current.parent.created;
     parent.type = 'dir';
 
-    return [current, parent].concat(this.current.children);
+    return [current, parent].concat(this.fs.current.children);
   }
 
   public pwd() {
-    let find = (target: FileNode, current: FileNode, acc: Array<FileNode>): Array<FileNode> => {
-      if (current.id === target.id) return acc;
-
-      for (let i = 0; i < current.children.length; i++) {
-        let child = current.children[i];
-        let temp = find(target, child, acc.concat(child));
-        if (temp.length > 0) return temp;
-      }
-      return [];
-    };
-    let items = find(this.current, this.root, []);
-    return `${this.root.name}/` + items.map(e => e.name).join('/');
+    let node = this.fs.current;
+    let acc = [];
+    while (node !== null) {
+      acc.push(node.name);
+      node = node.parent;
+    }
+    return acc.reverse().join('/');
   }
 }
