@@ -11,5 +11,5 @@ https://direkte.dn.no/usa-valget-2020
 
 A node app feeds third-party data to a static
 Vue.js application hosted in S3 storage.
-Leverage DNs news studio feed for a quick win.
+Uses the internal news studio service for a quick win.
 Tech: Node, Redis, Vue.js, D3.js

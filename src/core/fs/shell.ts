@@ -4,9 +4,9 @@ export default class Shell {
   public version: string = '0.1.0';
   public fs: FileSystem = new FileSystem();
 
-  public cat(file: string): string {
-    let files = this.fs.current.children.filter(e => e.name === file && e.type === 'file');
-    if (files.length > 0) return files[0].content;
+  public cat(name: string): string {
+    let index = this.fs.current.children.findIndex(e => e.name === name && e.type === 'file');
+    if (index !== -1) return this.fs.current.children[index].content;
     else throw new Error('No such file');
   }
 

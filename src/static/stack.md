@@ -4,7 +4,7 @@ with a limitless supply of packages
 from the .NET universe.
 
 Express/Node.js:
-Leverage simplicity when speed is key.
+Simplicity when speed is key.
 Provides an infinite number of ready
 to use packages. Always keep a node
 server ready.
@@ -16,8 +16,6 @@ datasets of any kind. Plays well
 with Mongo databases.
 
 Vue.js
-A super easy JavaScript framwork for rapid
-development. Mix with vuex and TypeScript
+A super easy JavaScript framework for rapid
+development. Mix with Vuex and TypeScript
 for a dreamy frontend experience.
-
-Azure, Amazon S3

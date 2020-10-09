@@ -1,857 +1,796 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg width="1110.5" height="150.5" x="0.5" y="0.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" shape-rendering="crispEdges">
+<svg width="1110.5" height="112.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" shape-rendering="crispEdges">
   <style type="text/css">
-    .white{fill:#212121;}
-    .black{fill:#b91e5c;}
+    .white{fill:#FFFFFF;}
+    .gold{fill:#dec814;}
+    .green{fill:#64df0d;}
+    .orange{fill:#e38919;}
+    .pink{fill:#ff4adc;}
+    .rose{fill:#ff5670;}
+    .apple{fill:#9af443;}
+    .brown{fill:#ff5918;}
+    .teal{fill:#9ad6b0;}
+    .yellow{fill:#efe024;}
+    .ocean{fill:#68cb30;}
+    .purple{fill:#be6b9c;}
+    .ribbon{fill:#db426e;}
   </style>
-  <title>honeymustard.svg</title>
-  <defs>
-    <symbol id="white">
-      <rect width="10" height="10" class="white" />
-    </symbol>
-    <symbol id="black">
-      <rect width="10" height="10" class="black" />
-    </symbol>
-  </defs>
-
-  <!-- Letter: H -->
-
-  <!-- column (H,0 -->
-  <use xlink:href="#white" x="0.5" y="40.5" />
-  <use xlink:href="#white" x="0.5" y="50.5" />
-  <use xlink:href="#white" x="0.5" y="130.5" />
-  <use xlink:href="#white" x="0.5" y="140.5" />
-
-  <!-- column (H,1) -->
-  <use xlink:href="#white" x="10.5" y="40.5" />
-  <use xlink:href="#black" x="10.5" y="50.5" />
-  <use xlink:href="#white" x="10.5" y="60.5" />
-  <use xlink:href="#white" x="10.5" y="70.5" />
-  <use xlink:href="#white" x="10.5" y="80.5" />
-  <use xlink:href="#white" x="10.5" y="90.5" />
-  <use xlink:href="#white" x="10.5" y="100.5" />
-  <use xlink:href="#white" x="10.5" y="110.5" />
-  <use xlink:href="#white" x="10.5" y="120.5" />
-  <use xlink:href="#black" x="10.5" y="130.5" />
-  <use xlink:href="#white" x="10.5" y="140.5" />
-
-  <!-- column (H,2) -->
-  <use xlink:href="#white" x="20.5" y="40.5" />
-  <use xlink:href="#black" x="20.5" y="60.5" />
-  <use xlink:href="#black" x="20.5" y="80.5" />
-  <use xlink:href="#black" x="20.5" y="100.5" />
-  <use xlink:href="#black" x="20.5" y="120.5" />
-  <use xlink:href="#white" x="20.5" y="140.5" />
-
-  <!-- column (H,3) -->
-  <use xlink:href="#white" x="30.5" y="40.5" />
-  <use xlink:href="#black" x="30.5" y="50.5" />
-  <use xlink:href="#black" x="30.5" y="70.5" />
-  <use xlink:href="#black" x="30.5" y="90.5" />
-  <use xlink:href="#black" x="30.5" y="110.5" />
-  <use xlink:href="#black" x="30.5" y="130.5" />
-  <use xlink:href="#white" x="30.5" y="140.5" />
-
-  <!-- column (H,4) -->
-  <use xlink:href="#white" x="40.5" y="40.5" />
-  <use xlink:href="#white" x="40.5" y="60.5" />
-  <use xlink:href="#white" x="40.5" y="70.5" />
-  <use xlink:href="#white" x="40.5" y="80.5" />
-  <use xlink:href="#white" x="40.5" y="100.5" />
-  <use xlink:href="#white" x="40.5" y="110.5" />
-  <use xlink:href="#white" x="40.5" y="120.5" />
-  <use xlink:href="#white" x="40.5" y="140.5" />
-
-  <!-- column (H,5) -->
-  <use xlink:href="#white" x="50.5" y="40.5" />
-  <use xlink:href="#white" x="50.5" y="50.5" />
-  <use xlink:href="#white" x="50.5" y="80.5" />
-  <use xlink:href="#black" x="50.5" y="90.5" />
-  <use xlink:href="#white" x="50.5" y="100.5" />
-  <use xlink:href="#white" x="50.5" y="130.5" />
-  <use xlink:href="#white" x="50.5" y="140.5" />
-
-  <!-- column (H,6) -->
-  <use xlink:href="#white" x="60.5" y="80.5" />
-  <use xlink:href="#white" x="60.5" y="100.5" />
-
-  <!-- column (H,7) -->
-  <use xlink:href="#white" x="70.5" y="40.5" />
-  <use xlink:href="#white" x="70.5" y="50.5" />
-  <use xlink:href="#white" x="70.5" y="80.5" />
-  <use xlink:href="#black" x="70.5" y="90.5" />
-  <use xlink:href="#white" x="70.5" y="100.5" />
-  <use xlink:href="#white" x="70.5" y="130.5" />
-  <use xlink:href="#white" x="70.5" y="140.5" />
-
-  <!-- column (H,8) -->
-  <use xlink:href="#white" x="80.5" y="40.5" />
-  <use xlink:href="#white" x="80.5" y="60.5" />
-  <use xlink:href="#white" x="80.5" y="70.5" />
-  <use xlink:href="#white" x="80.5" y="80.5" />
-  <use xlink:href="#white" x="80.5" y="100.5" />
-  <use xlink:href="#white" x="80.5" y="110.5" />
-  <use xlink:href="#white" x="80.5" y="120.5" />
-  <use xlink:href="#white" x="80.5" y="140.5" />
-
-  <!-- column (H,9) -->
-  <use xlink:href="#white" x="90.5" y="40.5" />
-  <use xlink:href="#black" x="90.5" y="50.5" />
-  <use xlink:href="#black" x="90.5" y="70.5" />
-  <use xlink:href="#black" x="90.5" y="90.5" />
-  <use xlink:href="#black" x="90.5" y="110.5" />
-  <use xlink:href="#black" x="90.5" y="130.5" />
-  <use xlink:href="#white" x="90.5" y="140.5" />
-
-  <!-- column (H,10) -->
-  <use xlink:href="#white" x="100.5" y="40.5" />
-  <use xlink:href="#black" x="100.5" y="60.5" />
-  <use xlink:href="#black" x="100.5" y="80.5" />
-  <use xlink:href="#black" x="100.5" y="100.5" />
-  <use xlink:href="#black" x="100.5" y="120.5" />
-  <use xlink:href="#white" x="100.5" y="140.5" />
-
-  <!-- column (H,11) -->
-  <use xlink:href="#white" x="110.5" y="40.5" />
-  <use xlink:href="#black" x="110.5" y="50.5" />
-  <use xlink:href="#white" x="110.5" y="60.5" />
-  <use xlink:href="#white" x="110.5" y="70.5" />
-  <use xlink:href="#white" x="110.5" y="80.5" />
-  <use xlink:href="#white" x="110.5" y="90.5" />
-  <use xlink:href="#white" x="110.5" y="100.5" />
-  <use xlink:href="#white" x="110.5" y="110.5" />
-  <use xlink:href="#white" x="110.5" y="120.5" />
-  <use xlink:href="#black" x="110.5" y="130.5" />
-  <use xlink:href="#white" x="110.5" y="140.5" />
-
-  <!-- column (H,12) -->
-  <use xlink:href="#white" x="120.5" y="40.5" />
-  <use xlink:href="#white" x="120.5" y="50.5" />
-  <use xlink:href="#white" x="120.5" y="60.5" />
-  <use xlink:href="#white" x="120.5" y="120.5" />
-  <use xlink:href="#white" x="120.5" y="130.5" />
-  <use xlink:href="#white" x="120.5" y="140.5" />
-
-  <!-- Letter: O -->
-
-  <!-- column (O,0) -->
-  <use xlink:href="#white" x="140.5" y="80.5" />
-  <use xlink:href="#white" x="140.5" y="90.5" />
-  <use xlink:href="#white" x="140.5" y="100.5" />
-  <use xlink:href="#white" x="140.5" y="110.5" />
-  <use xlink:href="#white" x="140.5" y="120.5" />
-
-  <!-- column (O,1) -->
-  <use xlink:href="#white" x="150.5" y="70.5" />
-  <use xlink:href="#black" x="150.5" y="90.5" />
-  <use xlink:href="#black" x="150.5" y="110.5" />
-  <use xlink:href="#white" x="150.5" y="130.5" />
-
-  <!-- column (O,2) -->
-  <use xlink:href="#white" x="160.5" y="60.5" />
-  <use xlink:href="#black" x="160.5" y="80.5" />
-  <use xlink:href="#white" x="160.5" y="90.5" />
-  <use xlink:href="#white" x="160.5" y="100.5" />
-  <use xlink:href="#white" x="160.5" y="110.5" />
-  <use xlink:href="#black" x="160.5" y="120.5" />
-  <use xlink:href="#white" x="160.5" y="140.5" />
-
-  <!-- column (O,3) -->
-  <use xlink:href="#white" x="170.5" y="60.5" />
-  <use xlink:href="#black" x="170.5" y="70.5" />
-  <use xlink:href="#white" x="170.5" y="80.5" />
-  <use xlink:href="#white" x="170.5" y="120.5" />
-  <use xlink:href="#black" x="170.5" y="130.5" />
-  <use xlink:href="#white" x="170.5" y="140.5" />
-
-  <!-- column (O,4) : center -->
-  <use xlink:href="#white" x="180.5" y="60.5" />
-  <use xlink:href="#white" x="180.5" y="80.5" />
-  <use xlink:href="#white" x="180.5" y="120.5" />
-  <use xlink:href="#white" x="180.5" y="140.5" />
-
-  <!-- column (O,5) -->
-  <use xlink:href="#white" x="190.5" y="60.5" />
-  <use xlink:href="#black" x="190.5" y="70.5" />
-  <use xlink:href="#white" x="190.5" y="80.5" />
-  <use xlink:href="#white" x="190.5" y="120.5" />
-  <use xlink:href="#black" x="190.5" y="130.5" />
-  <use xlink:href="#white" x="190.5" y="140.5" />
-
-  <!-- column (O,6) -->
-  <use xlink:href="#white" x="200.5" y="60.5" />
-  <use xlink:href="#black" x="200.5" y="80.5" />
-  <use xlink:href="#white" x="200.5" y="90.5" />
-  <use xlink:href="#white" x="200.5" y="100.5" />
-  <use xlink:href="#white" x="200.5" y="110.5" />
-  <use xlink:href="#black" x="200.5" y="120.5" />
-  <use xlink:href="#white" x="200.5" y="140.5" />
-
-  <!-- column (O,7) -->
-  <use xlink:href="#white" x="210.5" y="70.5" />
-  <use xlink:href="#black" x="210.5" y="90.5" />
-  <use xlink:href="#black" x="210.5" y="110.5" />
-  <use xlink:href="#white" x="210.5" y="130.5" />
-
-  <!-- column (O,8) -->
-  <use xlink:href="#white" x="220.5" y="80.5" />
-  <use xlink:href="#white" x="220.5" y="90.5" />
-  <use xlink:href="#white" x="220.5" y="100.5" />
-  <use xlink:href="#white" x="220.5" y="110.5" />
-  <use xlink:href="#white" x="220.5" y="120.5" />
-
-  <!-- Letter: N -->
-
-  <!-- column (N,0) -->
-  <use xlink:href="#white" x="240.5" y="60.5" />
-  <use xlink:href="#white" x="240.5" y="70.5" />
-  <use xlink:href="#white" x="240.5" y="80.5" />
-  <use xlink:href="#white" x="240.5" y="90.5" />
-  <use xlink:href="#white" x="240.5" y="100.5" />
-  <use xlink:href="#white" x="240.5" y="110.5" />
-  <use xlink:href="#white" x="240.5" y="120.5" />
-  <use xlink:href="#white" x="240.5" y="130.5" />
-  <use xlink:href="#white" x="240.5" y="140.5" />
-
-  <!-- column (N,1) -->
-  <use xlink:href="#white" x="250.5" y="60.5" />
-  <use xlink:href="#black" x="250.5" y="80.5" />
-  <use xlink:href="#black" x="250.5" y="100.5" />
-  <use xlink:href="#black" x="250.5" y="120.5" />
-  <use xlink:href="#white" x="250.5" y="140.5" />
-
-  <!-- column (N,2) -->
-  <use xlink:href="#white" x="260.5" y="70.5" />
-  <use xlink:href="#white" x="260.5" y="90.5" />
-  <use xlink:href="#white" x="260.5" y="100.5" />
-  <use xlink:href="#white" x="260.5" y="110.5" />
-  <use xlink:href="#white" x="260.5" y="120.5" />
-  <use xlink:href="#white" x="260.5" y="130.5" />
-  <use xlink:href="#white" x="260.5" y="140.5" />
-
-  <!-- column (N,3) -->
-  <use xlink:href="#white" x="270.5" y="60.5" />
-  <use xlink:href="#white" x="270.5" y="80.5" />
-
-  <!-- column (N,4) -->
-  <use xlink:href="#white" x="280.5" y="60.5" />
-  <use xlink:href="#black" x="280.5" y="70.5" />
-  <use xlink:href="#white" x="280.5" y="80.5" />
-
-  <!-- column (N,5) -->
-  <use xlink:href="#white" x="290.5" y="60.5" />
-  <use xlink:href="#white" x="290.5" y="80.5" />
-
-  <!-- column (N,6) -->
-  <use xlink:href="#white" x="300.5" y="60.5" />
-  <use xlink:href="#black" x="300.5" y="70.5" />
-  <use xlink:href="#white" x="300.5" y="90.5" />
-  <use xlink:href="#white" x="300.5" y="100.5" />
-  <use xlink:href="#white" x="300.5" y="110.5" />
-  <use xlink:href="#white" x="300.5" y="120.5" />
-  <use xlink:href="#white" x="300.5" y="130.5" />
-  <use xlink:href="#white" x="300.5" y="140.5" />
-
-  <!-- column (N,7) -->
-  <use xlink:href="#white" x="310.5" y="70.5" />
-  <use xlink:href="#black" x="310.5" y="80.5" />
-  <use xlink:href="#black" x="310.5" y="100.5" />
-  <use xlink:href="#black" x="310.5" y="120.5" />
-  <use xlink:href="#white" x="310.5" y="140.5" />
-
-  <!-- column (N,8) -->
-  <use xlink:href="#white" x="320.5" y="80.5" />
-  <use xlink:href="#white" x="320.5" y="90.5" />
-  <use xlink:href="#white" x="320.5" y="100.5" />
-  <use xlink:href="#white" x="320.5" y="110.5" />
-  <use xlink:href="#white" x="320.5" y="120.5" />
-  <use xlink:href="#white" x="320.5" y="130.5" />
-  <use xlink:href="#white" x="320.5" y="140.5" />
-
-  <!-- Letter: E -->
-
-  <!-- column (E,0) -->
-  <use xlink:href="#white" x="340.5" y="80.5" />
-  <use xlink:href="#white" x="340.5" y="90.5" />
-  <use xlink:href="#white" x="340.5" y="100.5" />
-  <use xlink:href="#white" x="340.5" y="110.5" />
-  <use xlink:href="#white" x="340.5" y="120.5" />
-
-  <!-- column (E,1) -->
-  <use xlink:href="#white" x="350.5" y="70.5" />
-  <use xlink:href="#black" x="350.5" y="90.5" />
-  <use xlink:href="#black" x="350.5" y="110.5" />
-  <use xlink:href="#white" x="350.5" y="130.5" />
-
-  <!-- column (E,2) -->
-  <use xlink:href="#white" x="360.5" y="60.5" />
-  <use xlink:href="#black" x="360.5" y="80.5" />
-  <use xlink:href="#white" x="360.5" y="90.5" />
-  <use xlink:href="#white" x="360.5" y="100.5" />
-  <use xlink:href="#white" x="360.5" y="110.5" />
-  <use xlink:href="#black" x="360.5" y="120.5" />
-  <use xlink:href="#white" x="360.5" y="140.5" />
-
-  <!-- column (E,3) -->
-  <use xlink:href="#white" x="370.5" y="60.5" />
-  <use xlink:href="#black" x="370.5" y="70.5" />
-  <use xlink:href="#white" x="370.5" y="80.5" />
-  <use xlink:href="#white" x="370.5" y="100.5" />
-  <use xlink:href="#white" x="370.5" y="120.5" />
-  <use xlink:href="#black" x="370.5" y="130.5" />
-  <use xlink:href="#white" x="370.5" y="140.5" />
-
-  <!-- column (E,4) -->
-  <use xlink:href="#white" x="380.5" y="60.5" />
-  <use xlink:href="#white" x="380.5" y="80.5" />
-  <use xlink:href="#white" x="380.5" y="100.5" />
-  <use xlink:href="#white" x="380.5" y="120.5" />
-  <use xlink:href="#white" x="380.5" y="140.5" />
-
-  <!-- column (E,5) -->
-  <use xlink:href="#white" x="390.5" y="60.5" />
-  <use xlink:href="#black" x="390.5" y="70.5" />
-  <use xlink:href="#white" x="390.5" y="90.5" />
-  <use xlink:href="#white" x="390.5" y="100.5" />
-  <use xlink:href="#white" x="390.5" y="120.5" />
-  <use xlink:href="#black" x="390.5" y="130.5" />
-  <use xlink:href="#white" x="390.5" y="140.5" />
-
-  <!-- column (E,6) -->
-  <use xlink:href="#white" x="400.5" y="70.5" />
-  <use xlink:href="#black" x="400.5" y="80.5" />
-  <use xlink:href="#white" x="400.5" y="100.5" />
-  <use xlink:href="#white" x="400.5" y="120.5" />
-  <use xlink:href="#white" x="400.5" y="140.5" />
-
-  <!-- column (E,7) -->
-  <use xlink:href="#white" x="410.5" y="80.5" />
-  <use xlink:href="#white" x="410.5" y="90.5" />
-  <use xlink:href="#white" x="410.5" y="100.5" />
-  <use xlink:href="#white" x="410.5" y="100.5" />
-  <use xlink:href="#white" x="410.5" y="130.5" />
-
-  <!-- Letter: Y -->
-
-  <!-- column (Y,0) -->
-  <use xlink:href="#white" x="430.5" y="60.5" />
-  <use xlink:href="#white" x="430.5" y="70.5" />
-  <use xlink:href="#white" x="430.5" y="80.5" />
-  <use xlink:href="#white" x="430.5" y="90.5" />
-  <use xlink:href="#white" x="430.5" y="110.5" />
-  <use xlink:href="#white" x="430.5" y="120.5" />
-  <use xlink:href="#white" x="430.5" y="130.5" />
-
-  <!-- column (Y,1) -->
-  <use xlink:href="#white" x="440.5" y="60.5" />
-  <use xlink:href="#black" x="440.5" y="70.5" />
-  <use xlink:href="#white" x="440.5" y="90.5" />
-  <use xlink:href="#white" x="440.5" y="110.5" />
-  <use xlink:href="#black" x="440.5" y="130.5" />
-  <use xlink:href="#white" x="440.5" y="140.5" />
-
-  <!-- column (Y,2) -->
-  <use xlink:href="#white" x="450.5" y="60.5" />
-  <use xlink:href="#white" x="450.5" y="70.5" />
-  <use xlink:href="#black" x="450.5" y="80.5" />
-  <use xlink:href="#white" x="450.5" y="100.5" />
-  <use xlink:href="#white" x="450.5" y="120.5" />
-  <use xlink:href="#white" x="450.5" y="140.5" />
-
-  <!-- column (Y,3) -->
-  <use xlink:href="#white" x="460.5" y="80.5" />
-  <use xlink:href="#black" x="460.5" y="90.5" />
-  <use xlink:href="#white" x="460.5" y="100.5" />
-  <use xlink:href="#white" x="460.5" y="120.5" />
-  <use xlink:href="#black" x="460.5" y="130.5" />
-  <use xlink:href="#white" x="460.5" y="140.5" />
-
-  <!-- column (Y,4) -->
-  <use xlink:href="#white" x="470.5" y="60.5" />
-  <use xlink:href="#white" x="470.5" y="70.5" />
-  <use xlink:href="#white" x="470.5" y="80.5" />
-  <use xlink:href="#white" x="470.5" y="100.5" />
-  <use xlink:href="#white" x="470.5" y="110.5" />
-  <use xlink:href="#black" x="470.5" y="120.5" />
-  <use xlink:href="#white" x="470.5" y="140.5" />
-
-  <!-- column (Y,5) -->
-  <use xlink:href="#white" x="480.5" y="60.5" />
-  <use xlink:href="#black" x="480.5" y="70.5" />
-  <use xlink:href="#black" x="480.5" y="90.5" />
-  <use xlink:href="#black" x="480.5" y="110.5" />
-  <use xlink:href="#black" x="480.5" y="130.5" />
-  <use xlink:href="#white" x="480.5" y="140.5" />
-
-  <!-- column (Y,6) -->
-  <use xlink:href="#white" x="490.5" y="60.5" />
-  <use xlink:href="#white" x="490.5" y="70.5" />
-  <use xlink:href="#white" x="490.5" y="80.5" />
-  <use xlink:href="#white" x="490.5" y="90.5" />
-  <use xlink:href="#white" x="490.5" y="100.5" />
-  <use xlink:href="#white" x="490.5" y="110.5" />
-  <use xlink:href="#white" x="490.5" y="120.5" />
-  <use xlink:href="#white" x="490.5" y="130.5" />
-
-  <!-- Letter: M -->
-
-  <!-- column (M,0) -->
-  <use xlink:href="#white" x="510.5" y="60.5" />
-  <use xlink:href="#white" x="510.5" y="70.5" />
-  <use xlink:href="#white" x="510.5" y="80.5" />
-  <use xlink:href="#white" x="510.5" y="90.5" />
-  <use xlink:href="#white" x="510.5" y="100.5" />
-  <use xlink:href="#white" x="510.5" y="110.5" />
-  <use xlink:href="#white" x="510.5" y="120.5" />
-  <use xlink:href="#white" x="510.5" y="130.5" />
-  <use xlink:href="#white" x="510.5" y="140.5" />
-
-  <!-- column (M,1) -->
-  <use xlink:href="#white" x="520.5" y="60.5" />
-  <use xlink:href="#black" x="520.5" y="70.5" />
-  <use xlink:href="#black" x="520.5" y="90.5" />
-  <use xlink:href="#black" x="520.5" y="110.5" />
-  <use xlink:href="#black" x="520.5" y="130.5" />
-  <use xlink:href="#white" x="520.5" y="140.5" />
-
-  <!-- column (M,2) -->
-  <use xlink:href="#white" x="530.5" y="70.5" />
-  <use xlink:href="#black" x="530.5" y="80.5" />
-  <use xlink:href="#white" x="530.5" y="100.5" />
-  <use xlink:href="#white" x="530.5" y="110.5" />
-  <use xlink:href="#white" x="530.5" y="120.5" />
-  <use xlink:href="#white" x="530.5" y="130.5" />
-  <use xlink:href="#white" x="530.5" y="140.5" />
-
-  <!-- column (M,3) -->
-  <use xlink:href="#white" x="540.5" y="60.5" />
-  <use xlink:href="#black" x="540.5" y="70.5" />
-  <use xlink:href="#white" x="540.5" y="90.5" />
-
-  <!-- column (M,4) -->
-  <use xlink:href="#white" x="550.5" y="60.5" />
-  <use xlink:href="#black" x="550.5" y="80.5" />
-  <use xlink:href="#white" x="550.5" y="100.5" />
-
-  <!-- column (M,5) -->
-  <use xlink:href="#white" x="560.5" y="70.5" />
-  <use xlink:href="#black" x="560.5" y="90.5" />
-  <use xlink:href="#white" x="560.5" y="100.5" />
-
-  <!-- column (M,6) -->
-  <use xlink:href="#white" x="570.5" y="60.5" />
-  <use xlink:href="#black" x="570.5" y="80.5" />
-  <use xlink:href="#white" x="570.5" y="90.5" />
-
-  <!-- column (M,7) -->
-  <use xlink:href="#white" x="580.5" y="60.5" />
-  <use xlink:href="#black" x="580.5" y="70.5" />
-  <use xlink:href="#black" x="580.5" y="90.5" />
-  <use xlink:href="#white" x="580.5" y="100.5" />
-  <use xlink:href="#white" x="580.5" y="110.5" />
-  <use xlink:href="#white" x="580.5" y="120.5" />
-  <use xlink:href="#white" x="580.5" y="130.5" />
-  <use xlink:href="#white" x="580.5" y="140.5" />
-
-  <!-- column (M,8) -->
-  <use xlink:href="#white" x="590.5" y="70.5" />
-  <use xlink:href="#black" x="590.5" y="80.5" />
-  <use xlink:href="#black" x="590.5" y="100.5" />
-  <use xlink:href="#black" x="590.5" y="120.5" />
-  <use xlink:href="#white" x="590.5" y="140.5" />
-
-  <!-- column (M,9) -->
-  <use xlink:href="#white" x="600.5" y="80.5" />
-  <use xlink:href="#white" x="600.5" y="90.5" />
-  <use xlink:href="#white" x="600.5" y="100.5" />
-  <use xlink:href="#white" x="600.5" y="110.5" />
-  <use xlink:href="#white" x="600.5" y="120.5" />
-  <use xlink:href="#white" x="600.5" y="130.5" />
-  <use xlink:href="#white" x="600.5" y="140.5" />
-
-  <!-- Letter: U -->
-
-  <!-- column (U,0) -->
-  <use xlink:href="#white" x="620.5" y="60.5" />
-  <use xlink:href="#white" x="620.5" y="70.5" />
-  <use xlink:href="#white" x="620.5" y="80.5" />
-  <use xlink:href="#white" x="620.5" y="90.5" />
-  <use xlink:href="#white" x="620.5" y="100.5" />
-  <use xlink:href="#white" x="620.5" y="110.5" />
-  <use xlink:href="#white" x="620.5" y="120.5" />
-  <use xlink:href="#white" x="620.5" y="130.5" />
-
-  <!-- column (U,1) -->
-  <use xlink:href="#white" x="630.5" y="60.5" />
-  <use xlink:href="#black" x="630.5" y="70.5" />
-  <use xlink:href="#black" x="630.5" y="90.5" />
-  <use xlink:href="#black" x="630.5" y="110.5" />
-  <use xlink:href="#black" x="630.5" y="130.5" />
-  <use xlink:href="#white" x="630.5" y="140.5" />
-
-  <!-- column (U,2) -->
-  <use xlink:href="#white" x="640.5" y="60.5" />
-  <use xlink:href="#white" x="640.5" y="70.5" />
-  <use xlink:href="#white" x="640.5" y="80.5" />
-  <use xlink:href="#white" x="640.5" y="90.5" />
-  <use xlink:href="#white" x="640.5" y="100.5" />
-  <use xlink:href="#white" x="640.5" y="110.5" />
-  <use xlink:href="#black" x="640.5" y="120.5" />
-  <use xlink:href="#white" x="640.5" y="140.5" />
-
-  <!-- column (U,3) -->
-  <use xlink:href="#white" x="650.5" y="110.5" />
-  <use xlink:href="#black" x="650.5" y="130.5" />
-  <use xlink:href="#white" x="650.5" y="140.5" />
-
-  <!-- column (U,4) -->
-  <use xlink:href="#white" x="660.5" y="110.5" />
-  <use xlink:href="#black" x="660.5" y="120.5" />
-  <use xlink:href="#white" x="660.5" y="140.5" />
-
-  <!-- column (U,5) -->
-  <use xlink:href="#white" x="670.5" y="60.5" />
-  <use xlink:href="#white" x="670.5" y="70.5" />
-  <use xlink:href="#white" x="670.5" y="80.5" />
-  <use xlink:href="#white" x="670.5" y="90.5" />
-  <use xlink:href="#white" x="670.5" y="100.5" />
-  <use xlink:href="#black" x="670.5" y="110.5" />
-  <use xlink:href="#white" x="670.5" y="130.5" />
-
-  <!-- column (U,6) -->
-  <use xlink:href="#white" x="680.5" y="60.5" />
-  <use xlink:href="#black" x="680.5" y="80.5" />
-  <use xlink:href="#black" x="680.5" y="100.5" />
-  <use xlink:href="#black" x="680.5" y="120.5" />
-  <use xlink:href="#white" x="680.5" y="140.5" />
-
-  <!-- column (U,7) -->
-  <use xlink:href="#white" x="690.5" y="60.5" />
-  <use xlink:href="#white" x="690.5" y="70.5" />
-  <use xlink:href="#white" x="690.5" y="80.5" />
-  <use xlink:href="#white" x="690.5" y="90.5" />
-  <use xlink:href="#white" x="690.5" y="100.5" />
-  <use xlink:href="#white" x="690.5" y="110.5" />
-  <use xlink:href="#white" x="690.5" y="120.5" />
-  <use xlink:href="#white" x="690.5" y="130.5" />
-  <use xlink:href="#white" x="690.5" y="140.5" />
-
-  <!-- Letter: S -->
-
-  <!-- column (S,0) -->
-  <use xlink:href="#white" x="710.5" y="70.5" />
-  <use xlink:href="#white" x="710.5" y="80.5" />
-  <use xlink:href="#white" x="710.5" y="90.5" />
-  <use xlink:href="#white" x="710.5" y="100.5" />
-  <use xlink:href="#white" x="710.5" y="120.5" />
-  <use xlink:href="#white" x="710.5" y="130.5" />
-
-  <!-- column (S,1) -->
-  <use xlink:href="#white" x="720.5" y="60.5" />
-  <use xlink:href="#black" x="720.5" y="80.5" />
-  <use xlink:href="#black" x="720.5" y="100.5" />
-  <use xlink:href="#white" x="720.5" y="110.5" />
-  <use xlink:href="#black" x="720.5" y="120.5" />
-  <use xlink:href="#white" x="720.5" y="140.5" />
-
-  <!-- column (S,2) -->
-  <use xlink:href="#white" x="730.5" y="60.5" />
-  <use xlink:href="#black" x="730.5" y="70.5" />
-  <use xlink:href="#white" x="730.5" y="90.5" />
-  <use xlink:href="#white" x="730.5" y="110.5" />
-  <use xlink:href="#black" x="730.5" y="130.5" />
-  <use xlink:href="#white" x="730.5" y="140.5" />
-
-  <!-- column (S,3) -->
-  <use xlink:href="#white" x="740.5" y="60.5" />
-  <use xlink:href="#black" x="740.5" y="80.5" />
-  <use xlink:href="#white" x="740.5" y="90.5" />
-  <use xlink:href="#black" x="740.5" y="100.5" />
-  <use xlink:href="#white" x="740.5" y="110.5" />
-  <use xlink:href="#black" x="740.5" y="120.5" />
-  <use xlink:href="#white" x="740.5" y="140.5" />
-
-  <!-- column (S,4) -->
-  <use xlink:href="#white" x="750.5" y="60.5" />
-  <use xlink:href="#black" x="750.5" y="70.5" />
-  <use xlink:href="#white" x="750.5" y="90.5" />
-  <use xlink:href="#black" x="750.5" y="110.5" />
-  <use xlink:href="#white" x="750.5" y="120.5" />
-  <use xlink:href="#black" x="750.5" y="130.5" />
-  <use xlink:href="#white" x="750.5" y="140.5" />
-
-  <!-- column (S,5) -->
-  <use xlink:href="#white" x="760.5" y="60.5" />
-  <use xlink:href="#black" x="760.5" y="80.5" />
-  <use xlink:href="#white" x="760.5" y="90.5" />
-  <use xlink:href="#black" x="760.5" y="100.5" />
-  <use xlink:href="#black" x="760.5" y="120.5" />
-  <use xlink:href="#white" x="760.5" y="140.5" />
-
-  <!-- column (S,6) -->
-  <use xlink:href="#white" x="770.5" y="70.5" />
-  <use xlink:href="#white" x="770.5" y="80.5" />
-  <use xlink:href="#white" x="770.5" y="100.5" />
-  <use xlink:href="#white" x="770.5" y="110.5" />
-  <use xlink:href="#white" x="770.5" y="120.5" />
-  <use xlink:href="#white" x="770.5" y="130.5" />
-
-  <!-- Letter: T -->
-
-  <!-- column (T,0) -->
-  <use xlink:href="#white" x="790.5" y="60.5" />
-  <use xlink:href="#white" x="790.5" y="70.5" />
-  <use xlink:href="#white" x="790.5" y="80.5" />
-  <use xlink:href="#white" x="790.5" y="90.5" />
-
-  <!-- column (T,1) -->
-  <use xlink:href="#white" x="800.5" y="40.5" />
-  <use xlink:href="#white" x="800.5" y="50.5" />
-  <use xlink:href="#white" x="800.5" y="60.5" />
-  <use xlink:href="#black" x="800.5" y="80.5" />
-  <use xlink:href="#white" x="800.5" y="90.5" />
-  <use xlink:href="#white" x="800.5" y="100.5" />
-  <use xlink:href="#white" x="800.5" y="110.5" />
-  <use xlink:href="#white" x="800.5" y="120.5" />
-  <use xlink:href="#white" x="800.5" y="130.5" />
-
-  <!-- column (T,2) -->
-  <use xlink:href="#white" x="810.5" y="40.5" />
-  <use xlink:href="#black" x="810.5" y="50.5" />
-  <use xlink:href="#black" x="810.5" y="70.5" />
-  <use xlink:href="#black" x="810.5" y="90.5" />
-  <use xlink:href="#black" x="810.5" y="110.5" />
-  <use xlink:href="#black" x="810.5" y="130.5" />
-  <use xlink:href="#white" x="810.5" y="140.5" />
-
-  <!-- column (T,3) -->
-  <use xlink:href="#white" x="820.5" y="40.5" />
-  <use xlink:href="#black" x="820.5" y="60.5" />
-  <use xlink:href="#black" x="820.5" y="80.5" />
-  <use xlink:href="#black" x="820.5" y="100.5" />
-  <use xlink:href="#black" x="820.5" y="120.5" />
-  <use xlink:href="#white" x="820.5" y="140.5" />
-
-  <!-- column (T,4) -->
-  <use xlink:href="#white" x="830.5" y="40.5" />
-  <use xlink:href="#white" x="830.5" y="50.5" />
-  <use xlink:href="#white" x="830.5" y="60.5" />
-  <use xlink:href="#black" x="830.5" y="70.5" />
-  <use xlink:href="#white" x="830.5" y="90.5" />
-  <use xlink:href="#white" x="830.5" y="100.5" />
-  <use xlink:href="#white" x="830.5" y="110.5" />
-  <use xlink:href="#black" x="830.5" y="130.5" />
-  <use xlink:href="#white" x="830.5" y="140.5" />
-
-  <!-- column (T,5) -->
-  <use xlink:href="#white" x="840.5" y="60.5" />
-  <use xlink:href="#black" x="840.5" y="80.5" />
-  <use xlink:href="#white" x="840.5" y="90.5" />
-  <use xlink:href="#white" x="840.5" y="120.5" />
-  <use xlink:href="#white" x="840.5" y="140.5" />
-
-  <!-- column (T,6) -->
-  <use xlink:href="#white" x="850.5" y="60.5" />
-  <use xlink:href="#white" x="850.5" y="70.5" />
-  <use xlink:href="#white" x="850.5" y="80.5" />
-  <use xlink:href="#white" x="850.5" y="90.5" />
-  <use xlink:href="#white" x="850.5" y="120.5" />
-  <use xlink:href="#white" x="850.5" y="130.5" />
-  <use xlink:href="#white" x="850.5" y="140.5" />
-
-  <!-- Letter: A -->
-
-  <!-- column (A,0) -->
-  <use xlink:href="#white" x="870.5" y="80.5" />
-  <use xlink:href="#white" x="870.5" y="90.5" />
-  <use xlink:href="#white" x="870.5" y="100.5" />
-  <use xlink:href="#white" x="870.5" y="110.5" />
-  <use xlink:href="#white" x="870.5" y="120.5" />
-
-  <!-- column (A,1) -->
-  <use xlink:href="#white" x="880.5" y="70.5" />
-  <use xlink:href="#black" x="880.5" y="80.5" />
-  <use xlink:href="#black" x="880.5" y="100.5" />
-  <use xlink:href="#black" x="880.5" y="120.5" />
-  <use xlink:href="#white" x="880.5" y="130.5" />
-
-  <!-- column (A,2) -->
-  <use xlink:href="#white" x="890.5" y="60.5" />
-  <use xlink:href="#black" x="890.5" y="70.5" />
-  <use xlink:href="#white" x="890.5" y="90.5" />
-  <use xlink:href="#white" x="890.5" y="100.5" />
-  <use xlink:href="#white" x="890.5" y="110.5" />
-  <use xlink:href="#black" x="890.5" y="130.5" />
-  <use xlink:href="#white" x="890.5" y="140.5" />
-
-  <!-- column (A,3) -->
-  <use xlink:href="#white" x="900.5" y="60.5" />
-  <use xlink:href="#black" x="900.5" y="80.5" />
-  <use xlink:href="#white" x="900.5" y="90.5" />
-  <use xlink:href="#white" x="900.5" y="110.5" />
-  <use xlink:href="#black" x="900.5" y="120.5" />
-  <use xlink:href="#white" x="900.5" y="140.5" />
-
-  <!-- column (A,4) -->
-  <use xlink:href="#white" x="910.5" y="60.5" />
-  <use xlink:href="#black" x="910.5" y="70.5" />
-  <use xlink:href="#white" x="910.5" y="90.5" />
-  <use xlink:href="#white" x="910.5" y="100.5" />
-  <use xlink:href="#white" x="910.5" y="110.5" />
-  <use xlink:href="#black" x="910.5" y="130.5" />
-  <use xlink:href="#white" x="910.5" y="140.5" />
-
-  <!-- column (A,5) -->
-  <use xlink:href="#white" x="920.5" y="70.5" />
-  <use xlink:href="#black" x="920.5" y="80.5" />
-  <use xlink:href="#black" x="920.5" y="100.5" />
-  <use xlink:href="#black" x="920.5" y="120.5" />
-  <use xlink:href="#white" x="920.5" y="130.5" />
-
-  <!-- column (A,6) -->
-  <use xlink:href="#white" x="930.5" y="60.5" />
-  <use xlink:href="#black" x="930.5" y="70.5" />
-  <use xlink:href="#black" x="930.5" y="90.5" />
-  <use xlink:href="#black" x="930.5" y="110.5" />
-  <use xlink:href="#black" x="930.5" y="130.5" />
-  <use xlink:href="#white" x="930.5" y="140.5" />
-
-  <!-- column (A,7) -->
-  <use xlink:href="#white" x="940.5" y="60.5" />
-  <use xlink:href="#white" x="940.5" y="70.5" />
-  <use xlink:href="#white" x="940.5" y="80.5" />
-  <use xlink:href="#white" x="940.5" y="90.5" />
-  <use xlink:href="#white" x="940.5" y="100.5" />
-  <use xlink:href="#white" x="940.5" y="110.5" />
-  <use xlink:href="#white" x="940.5" y="120.5" />
-  <use xlink:href="#white" x="940.5" y="130.5" />
-  <use xlink:href="#white" x="940.5" y="140.5" />
-
-  <!-- Letter: R -->
-
-  <!-- column (R,0) -->
-  <use xlink:href="#white" x="960.5" y="60.5" />
-  <use xlink:href="#white" x="960.5" y="70.5" />
-  <use xlink:href="#white" x="960.5" y="80.5" />
-  <use xlink:href="#white" x="960.5" y="90.5" />
-  <use xlink:href="#white" x="960.5" y="100.5" />
-  <use xlink:href="#white" x="960.5" y="110.5" />
-  <use xlink:href="#white" x="960.5" y="120.5" />
-  <use xlink:href="#white" x="960.5" y="130.5" />
-  <use xlink:href="#white" x="960.5" y="140.5" />
-
-  <!-- column (R,1) -->
-  <use xlink:href="#white" x="970.5" y="60.5" />
-  <use xlink:href="#black" x="970.5" y="70.5" />
-  <use xlink:href="#black" x="970.5" y="90.5" />
-  <use xlink:href="#black" x="970.5" y="110.5" />
-  <use xlink:href="#black" x="970.5" y="130.5" />
-  <use xlink:href="#white" x="970.5" y="140.5" />
-
-  <!-- column (R,2) -->
-  <use xlink:href="#white" x="980.5" y="60.5" />
-  <use xlink:href="#white" x="980.5" y="80.5" />
-  <use xlink:href="#white" x="980.5" y="90.5" />
-  <use xlink:href="#white" x="980.5" y="100.5" />
-  <use xlink:href="#white" x="980.5" y="120.5" />
-  <use xlink:href="#white" x="980.5" y="130.5" />
-  <use xlink:href="#white" x="980.5" y="140.5" />
-
-  <!-- column (R,3) -->
-  <use xlink:href="#white" x="990.5" y="60.5" />
-  <use xlink:href="#black" x="990.5" y="70.5" />
-  <use xlink:href="#white" x="990.5" y="80.5" />
-  <use xlink:href="#white" x="990.5" y="100.5" />
-  <use xlink:href="#black" x="990.5" y="110.5" />
-  <use xlink:href="#white" x="990.5" y="120.5" />
-
-  <!-- column (R,4) -->
-  <use xlink:href="#white" x="1000.5" y="60.5" />
-  <use xlink:href="#black" x="1000.5" y="80.5" />
-  <use xlink:href="#white" x="1000.5" y="90.5" />
-  <use xlink:href="#white" x="1000.5" y="100.5" />
-  <use xlink:href="#black" x="1000.5" y="120.5" />
-  <use xlink:href="#white" x="1000.5" y="130.5" />
-  <use xlink:href="#white" x="1000.5" y="140.5" />
-
-  <!-- column (R,5) -->
-  <use xlink:href="#white" x="1010.5" y="70.5" />
-  <use xlink:href="#black" x="1010.5" y="90.5" />
-  <use xlink:href="#white" x="1010.5" y="110.5" />
-  <use xlink:href="#black" x="1010.5" y="130.5" />
-  <use xlink:href="#white" x="1010.5" y="140.5" />
-
-  <!-- column (R,6) -->
-  <use xlink:href="#white" x="1020.5" y="80.5" />
-  <use xlink:href="#white" x="1020.5" y="90.5" />
-  <use xlink:href="#white" x="1020.5" y="100.5" />
-  <use xlink:href="#white" x="1020.5" y="120.5" />
-  <use xlink:href="#white" x="1020.5" y="130.5" />
-  <use xlink:href="#white" x="1020.5" y="140.5" />
-
-  <!-- Letter: D -->
-
-  <!-- column (D,0) -->
-  <use xlink:href="#white" x="1040.5" y="90.5" />
-  <use xlink:href="#white" x="1040.5" y="100.5" />
-  <use xlink:href="#white" x="1040.5" y="110.5" />
-  <use xlink:href="#white" x="1040.5" y="120.5" />
-  <use xlink:href="#white" x="1040.5" y="130.5" />
-
-  <!-- column (D,1) -->
-  <use xlink:href="#white" x="1050.5" y="80.5" />
-  <use xlink:href="#black" x="1050.5" y="90.5" />
-  <use xlink:href="#black" x="1050.5" y="110.5" />
-  <use xlink:href="#black" x="1050.5" y="130.5" />
-  <use xlink:href="#white" x="1050.5" y="140.5" />
-
-  <!-- column (D,2) -->
-  <use xlink:href="#white" x="1060.5" y="80.5" />
-  <use xlink:href="#white" x="1060.5" y="100.5" />
-  <use xlink:href="#white" x="1060.5" y="110.5" />
-  <use xlink:href="#white" x="1060.5" y="120.5" />
-  <use xlink:href="#white" x="1060.5" y="140.5" />
-
-  <!-- column (D,3) -->
-  <use xlink:href="#white" x="1070.5" y="40.5" />
-  <use xlink:href="#white" x="1070.5" y="50.5" />
-  <use xlink:href="#white" x="1070.5" y="60.5" />
-  <use xlink:href="#white" x="1070.5" y="70.5" />
-  <use xlink:href="#white" x="1070.5" y="80.5" />
-  <use xlink:href="#black" x="1070.5" y="90.5" />
-  <use xlink:href="#white" x="1070.5" y="100.5" />
-  <use xlink:href="#white" x="1070.5" y="120.5" />
-  <use xlink:href="#black" x="1070.5" y="130.5" />
-  <use xlink:href="#white" x="1070.5" y="140.5" />
-
-  <!-- column (D,4) -->
-  <use xlink:href="#white" x="1080.5" y="40.5" />
-  <use xlink:href="#black" x="1080.5" y="60.5" />
-  <use xlink:href="#black" x="1080.5" y="80.5" />
-  <use xlink:href="#white" x="1080.5" y="100.5" />
-  <use xlink:href="#white" x="1080.5" y="110.5" />
-  <use xlink:href="#white" x="1080.5" y="120.5" />
-  <use xlink:href="#white" x="1080.5" y="140.5" />
-
-  <!-- column (D,5) -->
-  <use xlink:href="#white" x="1090.5" y="40.5" />
-  <use xlink:href="#black" x="1090.5" y="50.5" />
-  <use xlink:href="#black" x="1090.5" y="70.5" />
-  <use xlink:href="#black" x="1090.5" y="90.5" />
-  <use xlink:href="#black" x="1090.5" y="110.5" />
-  <use xlink:href="#black" x="1090.5" y="130.5" />
-  <use xlink:href="#white" x="1090.5" y="140.5" />
-
-  <!-- column (D,6) -->
-  <use xlink:href="#white" x="1100.5" y="40.5" />
-  <use xlink:href="#white" x="1100.5" y="50.5" />
-  <use xlink:href="#white" x="1100.5" y="60.5" />
-  <use xlink:href="#white" x="1100.5" y="70.5" />
-  <use xlink:href="#white" x="1100.5" y="80.5" />
-  <use xlink:href="#white" x="1100.5" y="90.5" />
-  <use xlink:href="#white" x="1100.5" y="100.5" />
-  <use xlink:href="#white" x="1100.5" y="110.5" />
-  <use xlink:href="#white" x="1100.5" y="120.5" />
-  <use xlink:href="#white" x="1100.5" y="130.5" />
-  <use xlink:href="#white" x="1100.5" y="140.5" />
+ <title>honeymustard.svg</title>
+ <defs>
+  <symbol id="white">
+   <rect id="svg_1" class="white" height="10" width="10"/>
+  </symbol>
+  <symbol id="gold">
+   <rect id="svg_2" class="gold" height="10" width="10"/>
+  </symbol>
+  <symbol id="green">
+   <rect id="svg_3" class="green" height="10" width="10"/>
+  </symbol>
+  <symbol id="orange">
+   <rect id="svg_4" class="orange" height="10" width="10"/>
+  </symbol>
+  <symbol id="pink">
+   <rect id="svg_5" class="pink" height="10" width="10"/>
+  </symbol>
+  <symbol id="rose">
+   <rect id="svg_6" class="rose" height="10" width="10"/>
+  </symbol>
+  <symbol id="apple">
+   <rect id="svg_7" class="apple" height="10" width="10"/>
+  </symbol>
+  <symbol id="brown">
+   <rect id="svg_8" class="brown" height="10" width="10"/>
+  </symbol>
+  <symbol id="teal">
+   <rect id="svg_9" class="teal" height="10" width="10"/>
+  </symbol>
+  <symbol id="yellow">
+   <rect id="svg_10" class="yellow" height="10" width="10"/>
+  </symbol>
+  <symbol id="ocean">
+   <rect id="svg_11" class="ocean" height="10" width="10"/>
+  </symbol>
+  <symbol id="purple">
+   <rect id="svg_12" class="purple" height="10" width="10"/>
+  </symbol>
+  <symbol id="ribbon">
+   <rect id="svg_13" class="ribbon" height="10" width="10"/>
+  </symbol>
+ </defs>
+ <!-- Letter: H -->
+ <!-- column (H,0 -->
+ <!-- column (H,1) -->
+ <!-- column (H,2) -->
+ <!-- column (H,3) -->
+ <!-- column (H,4) -->
+ <!-- column (H,5) -->
+ <!-- column (H,6) -->
+ <!-- column (H,7) -->
+ <!-- column (H,8) -->
+ <!-- column (H,9) -->
+ <!-- column (H,10) -->
+ <!-- column (H,11) -->
+ <!-- column (H,12) -->
+ <!-- Letter: O -->
+ <!-- column (O,0) -->
+ <!-- column (O,1) -->
+ <!-- column (O,2) -->
+ <!-- column (O,3) -->
+ <!-- column (O,4) : center -->
+ <!-- column (O,5) -->
+ <!-- column (O,6) -->
+ <!-- column (O,7) -->
+ <!-- column (O,8) -->
+ <!-- Letter: N -->
+ <!-- column (N,0) -->
+ <!-- column (N,1) -->
+ <!-- column (N,2) -->
+ <!-- column (N,3) -->
+ <!-- column (N,4) -->
+ <!-- column (N,5) -->
+ <!-- column (N,6) -->
+ <!-- column (N,7) -->
+ <!-- column (N,8) -->
+ <!-- Letter: E -->
+ <!-- column (E,0) -->
+ <!-- column (E,1) -->
+ <!-- column (E,2) -->
+ <!-- column (E,3) -->
+ <!-- column (E,4) -->
+ <!-- column (E,5) -->
+ <!-- column (E,6) -->
+ <!-- column (E,7) -->
+ <!-- Letter: Y -->
+ <!-- column (Y,0) -->
+ <!-- column (Y,1) -->
+ <!-- column (Y,2) -->
+ <!-- column (Y,3) -->
+ <!-- column (Y,4) -->
+ <!-- column (Y,5) -->
+ <!-- column (Y,6) -->
+ <!-- Letter: M -->
+ <!-- column (M,0) -->
+ <!-- column (M,1) -->
+ <!-- column (M,2) -->
+ <!-- column (M,3) -->
+ <!-- column (M,4) -->
+ <!-- column (M,5) -->
+ <!-- column (M,6) -->
+ <!-- column (M,7) -->
+ <!-- column (M,8) -->
+ <!-- column (M,9) -->
+ <!-- Letter: U -->
+ <!-- column (U,0) -->
+ <!-- column (U,1) -->
+ <!-- column (U,2) -->
+ <!-- column (U,3) -->
+ <!-- column (U,4) -->
+ <!-- column (U,5) -->
+ <!-- column (U,6) -->
+ <!-- column (U,7) -->
+ <!-- Letter: S -->
+ <!-- column (S,0) -->
+ <!-- column (S,1) -->
+ <!-- column (S,2) -->
+ <!-- column (S,3) -->
+ <!-- column (S,4) -->
+ <!-- column (S,5) -->
+ <!-- column (S,6) -->
+ <!-- Letter: T -->
+ <!-- column (T,0) -->
+ <!-- column (T,1) -->
+ <!-- column (T,2) -->
+ <!-- column (T,3) -->
+ <!-- column (T,4) -->
+ <!-- column (T,5) -->
+ <!-- column (T,6) -->
+ <!-- Letter: A -->
+ <!-- column (A,0) -->
+ <!-- column (A,1) -->
+ <!-- column (A,2) -->
+ <!-- column (A,3) -->
+ <!-- column (A,4) -->
+ <!-- column (A,5) -->
+ <!-- column (A,6) -->
+ <!-- column (A,7) -->
+ <!-- Letter: R -->
+ <!-- column (R,0) -->
+ <!-- column (R,1) -->
+ <!-- column (R,2) -->
+ <!-- column (R,3) -->
+ <!-- column (R,4) -->
+ <!-- column (R,5) -->
+ <!-- column (R,6) -->
+ <!-- Letter: D -->
+ <!-- column (D,0) -->
+ <!-- column (D,1) -->
+ <!-- column (D,2) -->
+ <!-- column (D,3) -->
+ <!-- column (D,4) -->
+ <!-- column (D,5) -->
+ <!-- column (D,6) -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="114.5" width="1112.5" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <use id="svg_14" y="0.5" x="1.5" xlink:href="#white"/>
+  <use id="svg_15" y="10.5" x="1.5" xlink:href="#white"/>
+  <use id="svg_16" y="90.5" x="1.5" xlink:href="#white"/>
+  <use id="svg_17" y="100.5" x="1.5" xlink:href="#white"/>
+  <use id="svg_18" y="0.5" x="11.5" xlink:href="#white"/>
+  <use id="svg_19" y="10.5" x="11.5" xlink:href="#gold"/>
+  <use id="svg_20" y="20.5" x="11.5" xlink:href="#white"/>
+  <use id="svg_21" y="30.5" x="11.5" xlink:href="#white"/>
+  <use id="svg_22" y="40.5" x="11.5" xlink:href="#white"/>
+  <use id="svg_23" y="50.5" x="11.5" xlink:href="#white"/>
+  <use id="svg_24" y="60.5" x="11.5" xlink:href="#white"/>
+  <use id="svg_25" y="70.5" x="11.5" xlink:href="#white"/>
+  <use id="svg_26" y="80.5" x="11.5" xlink:href="#white"/>
+  <use id="svg_27" y="90.5" x="11.5" xlink:href="#gold"/>
+  <use id="svg_28" y="100.5" x="11.5" xlink:href="#white"/>
+  <use id="svg_29" y="0.5" x="21.5" xlink:href="#white"/>
+  <use id="svg_30" y="20.5" x="21.5" xlink:href="#gold"/>
+  <use id="svg_31" y="40.5" x="21.5" xlink:href="#gold"/>
+  <use id="svg_32" y="60.5" x="21.5" xlink:href="#gold"/>
+  <use id="svg_33" y="80.5" x="21.5" xlink:href="#gold"/>
+  <use id="svg_34" y="100.5" x="21.5" xlink:href="#white"/>
+  <use id="svg_35" y="0.5" x="31.5" xlink:href="#white"/>
+  <use id="svg_36" y="10.5" x="31.5" xlink:href="#gold"/>
+  <use id="svg_37" y="30.5" x="31.5" xlink:href="#gold"/>
+  <use id="svg_38" y="50.5" x="31.5" xlink:href="#gold"/>
+  <use id="svg_39" y="70.5" x="31.5" xlink:href="#gold"/>
+  <use id="svg_40" y="90.5" x="31.5" xlink:href="#gold"/>
+  <use id="svg_41" y="100.5" x="31.5" xlink:href="#white"/>
+  <use id="svg_42" y="0.5" x="41.5" xlink:href="#white"/>
+  <use id="svg_43" y="20.5" x="41.5" xlink:href="#white"/>
+  <use id="svg_44" y="30.5" x="41.5" xlink:href="#white"/>
+  <use id="svg_45" y="40.5" x="41.5" xlink:href="#white"/>
+  <use id="svg_46" y="60.5" x="41.5" xlink:href="#white"/>
+  <use id="svg_47" y="70.5" x="41.5" xlink:href="#white"/>
+  <use id="svg_48" y="80.5" x="41.5" xlink:href="#white"/>
+  <use id="svg_49" y="100.5" x="41.5" xlink:href="#white"/>
+  <use id="svg_50" y="0.5" x="51.5" xlink:href="#white"/>
+  <use id="svg_51" y="10.5" x="51.5" xlink:href="#white"/>
+  <use id="svg_52" y="40.5" x="51.5" xlink:href="#white"/>
+  <use id="svg_53" y="50.5" x="51.5" xlink:href="#gold"/>
+  <use id="svg_54" y="60.5" x="51.5" xlink:href="#white"/>
+  <use id="svg_55" y="90.5" x="51.5" xlink:href="#white"/>
+  <use id="svg_56" y="100.5" x="51.5" xlink:href="#white"/>
+  <use id="svg_57" y="40.5" x="61.5" xlink:href="#white"/>
+  <use id="svg_58" y="60.5" x="61.5" xlink:href="#white"/>
+  <use id="svg_59" y="0.5" x="71.5" xlink:href="#white"/>
+  <use id="svg_60" y="10.5" x="71.5" xlink:href="#white"/>
+  <use id="svg_61" y="40.5" x="71.5" xlink:href="#white"/>
+  <use id="svg_62" y="50.5" x="71.5" xlink:href="#gold"/>
+  <use id="svg_63" y="60.5" x="71.5" xlink:href="#white"/>
+  <use id="svg_64" y="90.5" x="71.5" xlink:href="#white"/>
+  <use id="svg_65" y="100.5" x="71.5" xlink:href="#white"/>
+  <use id="svg_66" y="0.5" x="81.5" xlink:href="#white"/>
+  <use id="svg_67" y="20.5" x="81.5" xlink:href="#white"/>
+  <use id="svg_68" y="30.5" x="81.5" xlink:href="#white"/>
+  <use id="svg_69" y="40.5" x="81.5" xlink:href="#white"/>
+  <use id="svg_70" y="60.5" x="81.5" xlink:href="#white"/>
+  <use id="svg_71" y="70.5" x="81.5" xlink:href="#white"/>
+  <use id="svg_72" y="80.5" x="81.5" xlink:href="#white"/>
+  <use id="svg_73" y="100.5" x="81.5" xlink:href="#white"/>
+  <use id="svg_74" y="0.5" x="91.5" xlink:href="#white"/>
+  <use id="svg_75" y="10.5" x="91.5" xlink:href="#gold"/>
+  <use id="svg_76" y="30.5" x="91.5" xlink:href="#gold"/>
+  <use id="svg_77" y="50.5" x="91.5" xlink:href="#gold"/>
+  <use id="svg_78" y="70.5" x="91.5" xlink:href="#gold"/>
+  <use id="svg_79" y="90.5" x="91.5" xlink:href="#gold"/>
+  <use id="svg_80" y="100.5" x="91.5" xlink:href="#white"/>
+  <use id="svg_81" y="0.5" x="101.5" xlink:href="#white"/>
+  <use id="svg_82" y="20.5" x="101.5" xlink:href="#gold"/>
+  <use id="svg_83" y="40.5" x="101.5" xlink:href="#gold"/>
+  <use id="svg_84" y="60.5" x="101.5" xlink:href="#gold"/>
+  <use id="svg_85" y="80.5" x="101.5" xlink:href="#gold"/>
+  <use id="svg_86" y="100.5" x="101.5" xlink:href="#white"/>
+  <use id="svg_87" y="0.5" x="111.5" xlink:href="#white"/>
+  <use id="svg_88" y="10.5" x="111.5" xlink:href="#gold"/>
+  <use id="svg_89" y="20.5" x="111.5" xlink:href="#white"/>
+  <use id="svg_90" y="30.5" x="111.5" xlink:href="#white"/>
+  <use id="svg_91" y="40.5" x="111.5" xlink:href="#white"/>
+  <use id="svg_92" y="50.5" x="111.5" xlink:href="#white"/>
+  <use id="svg_93" y="60.5" x="111.5" xlink:href="#white"/>
+  <use id="svg_94" y="70.5" x="111.5" xlink:href="#white"/>
+  <use id="svg_95" y="80.5" x="111.5" xlink:href="#white"/>
+  <use id="svg_96" y="90.5" x="111.5" xlink:href="#gold"/>
+  <use id="svg_97" y="100.5" x="111.5" xlink:href="#white"/>
+  <use id="svg_98" y="0.5" x="121.5" xlink:href="#white"/>
+  <use id="svg_99" y="10.5" x="121.5" xlink:href="#white"/>
+  <use id="svg_100" y="20.5" x="121.5" xlink:href="#white"/>
+  <use id="svg_101" y="80.5" x="121.5" xlink:href="#white"/>
+  <use id="svg_102" y="90.5" x="121.5" xlink:href="#white"/>
+  <use id="svg_103" y="100.5" x="121.5" xlink:href="#white"/>
+  <use id="svg_104" y="40.5" x="141.5" xlink:href="#white"/>
+  <use id="svg_105" y="50.5" x="141.5" xlink:href="#white"/>
+  <use id="svg_106" y="60.5" x="141.5" xlink:href="#white"/>
+  <use id="svg_107" y="70.5" x="141.5" xlink:href="#white"/>
+  <use id="svg_108" y="80.5" x="141.5" xlink:href="#white"/>
+  <use id="svg_109" y="30.5" x="151.5" xlink:href="#white"/>
+  <use id="svg_110" y="50.5" x="151.5" xlink:href="#green"/>
+  <use id="svg_111" y="70.5" x="151.5" xlink:href="#green"/>
+  <use id="svg_112" y="90.5" x="151.5" xlink:href="#white"/>
+  <use id="svg_113" y="20.5" x="161.5" xlink:href="#white"/>
+  <use id="svg_114" y="40.5" x="161.5" xlink:href="#green"/>
+  <use id="svg_115" y="50.5" x="161.5" xlink:href="#white"/>
+  <use id="svg_116" y="60.5" x="161.5" xlink:href="#white"/>
+  <use id="svg_117" y="70.5" x="161.5" xlink:href="#white"/>
+  <use id="svg_118" y="80.5" x="161.5" xlink:href="#green"/>
+  <use id="svg_119" y="100.5" x="161.5" xlink:href="#white"/>
+  <use id="svg_120" y="20.5" x="171.5" xlink:href="#white"/>
+  <use id="svg_121" y="30.5" x="171.5" xlink:href="#green"/>
+  <use id="svg_122" y="40.5" x="171.5" xlink:href="#white"/>
+  <use id="svg_123" y="80.5" x="171.5" xlink:href="#white"/>
+  <use id="svg_124" y="90.5" x="171.5" xlink:href="#green"/>
+  <use id="svg_125" y="100.5" x="171.5" xlink:href="#white"/>
+  <use id="svg_126" y="20.5" x="181.5" xlink:href="#white"/>
+  <use id="svg_127" y="40.5" x="181.5" xlink:href="#white"/>
+  <use id="svg_128" y="80.5" x="181.5" xlink:href="#white"/>
+  <use id="svg_129" y="100.5" x="181.5" xlink:href="#white"/>
+  <use id="svg_130" y="20.5" x="191.5" xlink:href="#white"/>
+  <use id="svg_131" y="30.5" x="191.5" xlink:href="#green"/>
+  <use id="svg_132" y="40.5" x="191.5" xlink:href="#white"/>
+  <use id="svg_133" y="80.5" x="191.5" xlink:href="#white"/>
+  <use id="svg_134" y="90.5" x="191.5" xlink:href="#green"/>
+  <use id="svg_135" y="100.5" x="191.5" xlink:href="#white"/>
+  <use id="svg_136" y="20.5" x="201.5" xlink:href="#white"/>
+  <use id="svg_137" y="40.5" x="201.5" xlink:href="#green"/>
+  <use id="svg_138" y="50.5" x="201.5" xlink:href="#white"/>
+  <use id="svg_139" y="60.5" x="201.5" xlink:href="#white"/>
+  <use id="svg_140" y="70.5" x="201.5" xlink:href="#white"/>
+  <use id="svg_141" y="80.5" x="201.5" xlink:href="#green"/>
+  <use id="svg_142" y="100.5" x="201.5" xlink:href="#white"/>
+  <use id="svg_143" y="30.5" x="211.5" xlink:href="#white"/>
+  <use id="svg_144" y="50.5" x="211.5" xlink:href="#green"/>
+  <use id="svg_145" y="70.5" x="211.5" xlink:href="#green"/>
+  <use id="svg_146" y="90.5" x="211.5" xlink:href="#white"/>
+  <use id="svg_147" y="40.5" x="221.5" xlink:href="#white"/>
+  <use id="svg_148" y="50.5" x="221.5" xlink:href="#white"/>
+  <use id="svg_149" y="60.5" x="221.5" xlink:href="#white"/>
+  <use id="svg_150" y="70.5" x="221.5" xlink:href="#white"/>
+  <use id="svg_151" y="80.5" x="221.5" xlink:href="#white"/>
+  <use id="svg_152" y="20.5" x="241.5" xlink:href="#white"/>
+  <use id="svg_153" y="30.5" x="241.5" xlink:href="#white"/>
+  <use id="svg_154" y="40.5" x="241.5" xlink:href="#white"/>
+  <use id="svg_155" y="50.5" x="241.5" xlink:href="#white"/>
+  <use id="svg_156" y="60.5" x="241.5" xlink:href="#white"/>
+  <use id="svg_157" y="70.5" x="241.5" xlink:href="#white"/>
+  <use id="svg_158" y="80.5" x="241.5" xlink:href="#white"/>
+  <use id="svg_159" y="90.5" x="241.5" xlink:href="#white"/>
+  <use id="svg_160" y="100.5" x="241.5" xlink:href="#white"/>
+  <use id="svg_161" y="20.5" x="251.5" xlink:href="#white"/>
+  <use id="svg_162" y="40.5" x="251.5" xlink:href="#orange"/>
+  <use id="svg_163" y="60.5" x="251.5" xlink:href="#orange"/>
+  <use id="svg_164" y="80.5" x="251.5" xlink:href="#orange"/>
+  <use id="svg_165" y="100.5" x="251.5" xlink:href="#white"/>
+  <use id="svg_166" y="30.5" x="261.5" xlink:href="#white"/>
+  <use id="svg_167" y="50.5" x="261.5" xlink:href="#white"/>
+  <use id="svg_168" y="60.5" x="261.5" xlink:href="#white"/>
+  <use id="svg_169" y="70.5" x="261.5" xlink:href="#white"/>
+  <use id="svg_170" y="80.5" x="261.5" xlink:href="#white"/>
+  <use id="svg_171" y="90.5" x="261.5" xlink:href="#white"/>
+  <use id="svg_172" y="100.5" x="261.5" xlink:href="#white"/>
+  <use id="svg_173" y="20.5" x="271.5" xlink:href="#white"/>
+  <use id="svg_174" y="40.5" x="271.5" xlink:href="#white"/>
+  <use id="svg_175" y="20.5" x="281.5" xlink:href="#white"/>
+  <use id="svg_176" y="30.5" x="281.5" xlink:href="#orange"/>
+  <use id="svg_177" y="40.5" x="281.5" xlink:href="#white"/>
+  <use id="svg_178" y="20.5" x="291.5" xlink:href="#white"/>
+  <use id="svg_179" y="40.5" x="291.5" xlink:href="#white"/>
+  <use id="svg_180" y="20.5" x="301.5" xlink:href="#white"/>
+  <use id="svg_181" y="30.5" x="301.5" xlink:href="#orange"/>
+  <use id="svg_182" y="50.5" x="301.5" xlink:href="#white"/>
+  <use id="svg_183" y="60.5" x="301.5" xlink:href="#white"/>
+  <use id="svg_184" y="70.5" x="301.5" xlink:href="#white"/>
+  <use id="svg_185" y="80.5" x="301.5" xlink:href="#white"/>
+  <use id="svg_186" y="90.5" x="301.5" xlink:href="#white"/>
+  <use id="svg_187" y="100.5" x="301.5" xlink:href="#white"/>
+  <use id="svg_188" y="30.5" x="311.5" xlink:href="#white"/>
+  <use id="svg_189" y="40.5" x="311.5" xlink:href="#orange"/>
+  <use id="svg_190" y="60.5" x="311.5" xlink:href="#orange"/>
+  <use id="svg_191" y="80.5" x="311.5" xlink:href="#orange"/>
+  <use id="svg_192" y="100.5" x="311.5" xlink:href="#white"/>
+  <use id="svg_193" y="40.5" x="321.5" xlink:href="#white"/>
+  <use id="svg_194" y="50.5" x="321.5" xlink:href="#white"/>
+  <use id="svg_195" y="60.5" x="321.5" xlink:href="#white"/>
+  <use id="svg_196" y="70.5" x="321.5" xlink:href="#white"/>
+  <use id="svg_197" y="80.5" x="321.5" xlink:href="#white"/>
+  <use id="svg_198" y="90.5" x="321.5" xlink:href="#white"/>
+  <use id="svg_199" y="100.5" x="321.5" xlink:href="#white"/>
+  <use id="svg_200" y="40.5" x="341.5" xlink:href="#white"/>
+  <use id="svg_201" y="50.5" x="341.5" xlink:href="#white"/>
+  <use id="svg_202" y="60.5" x="341.5" xlink:href="#white"/>
+  <use id="svg_203" y="70.5" x="341.5" xlink:href="#white"/>
+  <use id="svg_204" y="80.5" x="341.5" xlink:href="#white"/>
+  <use id="svg_205" y="30.5" x="351.5" xlink:href="#white"/>
+  <use id="svg_206" y="50.5" x="351.5" xlink:href="#pink"/>
+  <use id="svg_207" y="70.5" x="351.5" xlink:href="#pink"/>
+  <use id="svg_208" y="90.5" x="351.5" xlink:href="#white"/>
+  <use id="svg_209" y="20.5" x="361.5" xlink:href="#white"/>
+  <use id="svg_210" y="40.5" x="361.5" xlink:href="#pink"/>
+  <use id="svg_211" y="50.5" x="361.5" xlink:href="#white"/>
+  <use id="svg_212" y="60.5" x="361.5" xlink:href="#white"/>
+  <use id="svg_213" y="70.5" x="361.5" xlink:href="#white"/>
+  <use id="svg_214" y="80.5" x="361.5" xlink:href="#pink"/>
+  <use id="svg_215" y="100.5" x="361.5" xlink:href="#white"/>
+  <use id="svg_216" y="20.5" x="371.5" xlink:href="#white"/>
+  <use id="svg_217" y="30.5" x="371.5" xlink:href="#pink"/>
+  <use id="svg_218" y="40.5" x="371.5" xlink:href="#white"/>
+  <use id="svg_219" y="60.5" x="371.5" xlink:href="#white"/>
+  <use id="svg_220" y="80.5" x="371.5" xlink:href="#white"/>
+  <use id="svg_221" y="90.5" x="371.5" xlink:href="#pink"/>
+  <use id="svg_222" y="100.5" x="371.5" xlink:href="#white"/>
+  <use id="svg_223" y="20.5" x="381.5" xlink:href="#white"/>
+  <use id="svg_224" y="40.5" x="381.5" xlink:href="#white"/>
+  <use id="svg_225" y="60.5" x="381.5" xlink:href="#white"/>
+  <use id="svg_226" y="80.5" x="381.5" xlink:href="#white"/>
+  <use id="svg_227" y="100.5" x="381.5" xlink:href="#white"/>
+  <use id="svg_228" y="20.5" x="391.5" xlink:href="#white"/>
+  <use id="svg_229" y="30.5" x="391.5" xlink:href="#pink"/>
+  <use id="svg_230" y="50.5" x="391.5" xlink:href="#white"/>
+  <use id="svg_231" y="60.5" x="391.5" xlink:href="#white"/>
+  <use id="svg_232" y="80.5" x="391.5" xlink:href="#white"/>
+  <use id="svg_233" y="90.5" x="391.5" xlink:href="#pink"/>
+  <use id="svg_234" y="100.5" x="391.5" xlink:href="#white"/>
+  <use id="svg_235" y="30.5" x="401.5" xlink:href="#white"/>
+  <use id="svg_236" y="40.5" x="401.5" xlink:href="#pink"/>
+  <use id="svg_237" y="60.5" x="401.5" xlink:href="#white"/>
+  <use id="svg_238" y="80.5" x="401.5" xlink:href="#white"/>
+  <use id="svg_239" y="100.5" x="401.5" xlink:href="#white"/>
+  <use id="svg_240" y="40.5" x="411.5" xlink:href="#white"/>
+  <use id="svg_241" y="50.5" x="411.5" xlink:href="#white"/>
+  <use id="svg_242" y="60.5" x="411.5" xlink:href="#white"/>
+  <use id="svg_243" y="60.5" x="411.5" xlink:href="#white"/>
+  <use id="svg_244" y="90.5" x="411.5" xlink:href="#white"/>
+  <use id="svg_245" y="20.5" x="431.5" xlink:href="#white"/>
+  <use id="svg_246" y="30.5" x="431.5" xlink:href="#white"/>
+  <use id="svg_247" y="40.5" x="431.5" xlink:href="#white"/>
+  <use id="svg_248" y="50.5" x="431.5" xlink:href="#white"/>
+  <use id="svg_249" y="70.5" x="431.5" xlink:href="#white"/>
+  <use id="svg_250" y="80.5" x="431.5" xlink:href="#white"/>
+  <use id="svg_251" y="90.5" x="431.5" xlink:href="#white"/>
+  <use id="svg_252" y="20.5" x="441.5" xlink:href="#white"/>
+  <use id="svg_253" y="30.5" x="441.5" xlink:href="#rose"/>
+  <use id="svg_254" y="50.5" x="441.5" xlink:href="#white"/>
+  <use id="svg_255" y="70.5" x="441.5" xlink:href="#white"/>
+  <use id="svg_256" y="90.5" x="441.5" xlink:href="#rose"/>
+  <use id="svg_257" y="100.5" x="441.5" xlink:href="#white"/>
+  <use id="svg_258" y="20.5" x="451.5" xlink:href="#white"/>
+  <use id="svg_259" y="30.5" x="451.5" xlink:href="#white"/>
+  <use id="svg_260" y="40.5" x="451.5" xlink:href="#rose"/>
+  <use id="svg_261" y="60.5" x="451.5" xlink:href="#white"/>
+  <use id="svg_262" y="80.5" x="451.5" xlink:href="#white"/>
+  <use id="svg_263" y="100.5" x="451.5" xlink:href="#white"/>
+  <use id="svg_264" y="40.5" x="461.5" xlink:href="#white"/>
+  <use id="svg_265" y="50.5" x="461.5" xlink:href="#rose"/>
+  <use id="svg_266" y="60.5" x="461.5" xlink:href="#white"/>
+  <use id="svg_267" y="80.5" x="461.5" xlink:href="#white"/>
+  <use id="svg_268" y="90.5" x="461.5" xlink:href="#rose"/>
+  <use id="svg_269" y="100.5" x="461.5" xlink:href="#white"/>
+  <use id="svg_270" y="20.5" x="471.5" xlink:href="#white"/>
+  <use id="svg_271" y="30.5" x="471.5" xlink:href="#white"/>
+  <use id="svg_272" y="40.5" x="471.5" xlink:href="#white"/>
+  <use id="svg_273" y="60.5" x="471.5" xlink:href="#white"/>
+  <use id="svg_274" y="70.5" x="471.5" xlink:href="#white"/>
+  <use id="svg_275" y="80.5" x="471.5" xlink:href="#rose"/>
+  <use id="svg_276" y="100.5" x="471.5" xlink:href="#white"/>
+  <use id="svg_277" y="20.5" x="481.5" xlink:href="#white"/>
+  <use id="svg_278" y="30.5" x="481.5" xlink:href="#rose"/>
+  <use id="svg_279" y="50.5" x="481.5" xlink:href="#rose"/>
+  <use id="svg_280" y="70.5" x="481.5" xlink:href="#rose"/>
+  <use id="svg_281" y="90.5" x="481.5" xlink:href="#rose"/>
+  <use id="svg_282" y="100.5" x="481.5" xlink:href="#white"/>
+  <use id="svg_283" y="20.5" x="491.5" xlink:href="#white"/>
+  <use id="svg_284" y="30.5" x="491.5" xlink:href="#white"/>
+  <use id="svg_285" y="40.5" x="491.5" xlink:href="#white"/>
+  <use id="svg_286" y="50.5" x="491.5" xlink:href="#white"/>
+  <use id="svg_287" y="60.5" x="491.5" xlink:href="#white"/>
+  <use id="svg_288" y="70.5" x="491.5" xlink:href="#white"/>
+  <use id="svg_289" y="80.5" x="491.5" xlink:href="#white"/>
+  <use id="svg_290" y="90.5" x="491.5" xlink:href="#white"/>
+  <use id="svg_291" y="20.5" x="511.5" xlink:href="#white"/>
+  <use id="svg_292" y="30.5" x="511.5" xlink:href="#white"/>
+  <use id="svg_293" y="40.5" x="511.5" xlink:href="#white"/>
+  <use id="svg_294" y="50.5" x="511.5" xlink:href="#white"/>
+  <use id="svg_295" y="60.5" x="511.5" xlink:href="#white"/>
+  <use id="svg_296" y="70.5" x="511.5" xlink:href="#white"/>
+  <use id="svg_297" y="80.5" x="511.5" xlink:href="#white"/>
+  <use id="svg_298" y="90.5" x="511.5" xlink:href="#white"/>
+  <use id="svg_299" y="100.5" x="511.5" xlink:href="#white"/>
+  <use id="svg_300" y="20.5" x="521.5" xlink:href="#white"/>
+  <use id="svg_301" y="30.5" x="521.5" xlink:href="#apple"/>
+  <use id="svg_302" y="50.5" x="521.5" xlink:href="#apple"/>
+  <use id="svg_303" y="70.5" x="521.5" xlink:href="#apple"/>
+  <use id="svg_304" y="90.5" x="521.5" xlink:href="#apple"/>
+  <use id="svg_305" y="100.5" x="521.5" xlink:href="#white"/>
+  <use id="svg_306" y="30.5" x="531.5" xlink:href="#white"/>
+  <use id="svg_307" y="40.5" x="531.5" xlink:href="#apple"/>
+  <use id="svg_308" y="60.5" x="531.5" xlink:href="#white"/>
+  <use id="svg_309" y="70.5" x="531.5" xlink:href="#white"/>
+  <use id="svg_310" y="80.5" x="531.5" xlink:href="#white"/>
+  <use id="svg_311" y="90.5" x="531.5" xlink:href="#white"/>
+  <use id="svg_312" y="100.5" x="531.5" xlink:href="#white"/>
+  <use id="svg_313" y="20.5" x="541.5" xlink:href="#white"/>
+  <use id="svg_314" y="30.5" x="541.5" xlink:href="#apple"/>
+  <use id="svg_315" y="50.5" x="541.5" xlink:href="#white"/>
+  <use id="svg_316" y="20.5" x="551.5" xlink:href="#white"/>
+  <use id="svg_317" y="40.5" x="551.5" xlink:href="#apple"/>
+  <use id="svg_318" y="60.5" x="551.5" xlink:href="#white"/>
+  <use id="svg_319" y="30.5" x="561.5" xlink:href="#white"/>
+  <use id="svg_320" y="50.5" x="561.5" xlink:href="#apple"/>
+  <use id="svg_321" y="60.5" x="561.5" xlink:href="#white"/>
+  <use id="svg_322" y="20.5" x="571.5" xlink:href="#white"/>
+  <use id="svg_323" y="40.5" x="571.5" xlink:href="#apple"/>
+  <use id="svg_324" y="50.5" x="571.5" xlink:href="#white"/>
+  <use id="svg_325" y="20.5" x="581.5" xlink:href="#white"/>
+  <use id="svg_326" y="30.5" x="581.5" xlink:href="#apple"/>
+  <use id="svg_327" y="50.5" x="581.5" xlink:href="#apple"/>
+  <use id="svg_328" y="60.5" x="581.5" xlink:href="#white"/>
+  <use id="svg_329" y="70.5" x="581.5" xlink:href="#white"/>
+  <use id="svg_330" y="80.5" x="581.5" xlink:href="#white"/>
+  <use id="svg_331" y="90.5" x="581.5" xlink:href="#white"/>
+  <use id="svg_332" y="100.5" x="581.5" xlink:href="#white"/>
+  <use id="svg_333" y="30.5" x="591.5" xlink:href="#white"/>
+  <use id="svg_334" y="40.5" x="591.5" xlink:href="#apple"/>
+  <use id="svg_335" y="60.5" x="591.5" xlink:href="#apple"/>
+  <use id="svg_336" y="80.5" x="591.5" xlink:href="#apple"/>
+  <use id="svg_337" y="100.5" x="591.5" xlink:href="#white"/>
+  <use id="svg_338" y="40.5" x="601.5" xlink:href="#white"/>
+  <use id="svg_339" y="50.5" x="601.5" xlink:href="#white"/>
+  <use id="svg_340" y="60.5" x="601.5" xlink:href="#white"/>
+  <use id="svg_341" y="70.5" x="601.5" xlink:href="#white"/>
+  <use id="svg_342" y="80.5" x="601.5" xlink:href="#white"/>
+  <use id="svg_343" y="90.5" x="601.5" xlink:href="#white"/>
+  <use id="svg_344" y="100.5" x="601.5" xlink:href="#white"/>
+  <use id="svg_345" y="20.5" x="621.5" xlink:href="#white"/>
+  <use id="svg_346" y="30.5" x="621.5" xlink:href="#white"/>
+  <use id="svg_347" y="40.5" x="621.5" xlink:href="#white"/>
+  <use id="svg_348" y="50.5" x="621.5" xlink:href="#white"/>
+  <use id="svg_349" y="60.5" x="621.5" xlink:href="#white"/>
+  <use id="svg_350" y="70.5" x="621.5" xlink:href="#white"/>
+  <use id="svg_351" y="80.5" x="621.5" xlink:href="#white"/>
+  <use id="svg_352" y="90.5" x="621.5" xlink:href="#white"/>
+  <use id="svg_353" y="20.5" x="631.5" xlink:href="#white"/>
+  <use id="svg_354" y="30.5" x="631.5" xlink:href="#brown"/>
+  <use id="svg_355" y="50.5" x="631.5" xlink:href="#brown"/>
+  <use id="svg_356" y="70.5" x="631.5" xlink:href="#brown"/>
+  <use id="svg_357" y="90.5" x="631.5" xlink:href="#brown"/>
+  <use id="svg_358" y="100.5" x="631.5" xlink:href="#white"/>
+  <use id="svg_359" y="20.5" x="641.5" xlink:href="#white"/>
+  <use id="svg_360" y="30.5" x="641.5" xlink:href="#white"/>
+  <use id="svg_361" y="40.5" x="641.5" xlink:href="#white"/>
+  <use id="svg_362" y="50.5" x="641.5" xlink:href="#white"/>
+  <use id="svg_363" y="60.5" x="641.5" xlink:href="#white"/>
+  <use id="svg_364" y="70.5" x="641.5" xlink:href="#white"/>
+  <use id="svg_365" y="80.5" x="641.5" xlink:href="#brown"/>
+  <use id="svg_366" y="100.5" x="641.5" xlink:href="#white"/>
+  <use id="svg_367" y="70.5" x="651.5" xlink:href="#white"/>
+  <use id="svg_368" y="90.5" x="651.5" xlink:href="#brown"/>
+  <use id="svg_369" y="100.5" x="651.5" xlink:href="#white"/>
+  <use id="svg_370" y="70.5" x="661.5" xlink:href="#white"/>
+  <use id="svg_371" y="80.5" x="661.5" xlink:href="#brown"/>
+  <use id="svg_372" y="100.5" x="661.5" xlink:href="#white"/>
+  <use id="svg_373" y="20.5" x="671.5" xlink:href="#white"/>
+  <use id="svg_374" y="30.5" x="671.5" xlink:href="#white"/>
+  <use id="svg_375" y="40.5" x="671.5" xlink:href="#white"/>
+  <use id="svg_376" y="50.5" x="671.5" xlink:href="#white"/>
+  <use id="svg_377" y="60.5" x="671.5" xlink:href="#white"/>
+  <use id="svg_378" y="70.5" x="671.5" xlink:href="#brown"/>
+  <use id="svg_379" y="90.5" x="671.5" xlink:href="#white"/>
+  <use id="svg_380" y="20.5" x="681.5" xlink:href="#white"/>
+  <use id="svg_381" y="40.5" x="681.5" xlink:href="#brown"/>
+  <use id="svg_382" y="60.5" x="681.5" xlink:href="#brown"/>
+  <use id="svg_383" y="80.5" x="681.5" xlink:href="#brown"/>
+  <use id="svg_384" y="100.5" x="681.5" xlink:href="#white"/>
+  <use id="svg_385" y="20.5" x="691.5" xlink:href="#white"/>
+  <use id="svg_386" y="30.5" x="691.5" xlink:href="#white"/>
+  <use id="svg_387" y="40.5" x="691.5" xlink:href="#white"/>
+  <use id="svg_388" y="50.5" x="691.5" xlink:href="#white"/>
+  <use id="svg_389" y="60.5" x="691.5" xlink:href="#white"/>
+  <use id="svg_390" y="70.5" x="691.5" xlink:href="#white"/>
+  <use id="svg_391" y="80.5" x="691.5" xlink:href="#white"/>
+  <use id="svg_392" y="90.5" x="691.5" xlink:href="#white"/>
+  <use id="svg_393" y="100.5" x="691.5" xlink:href="#white"/>
+  <use id="svg_394" y="30.5" x="711.5" xlink:href="#white"/>
+  <use id="svg_395" y="40.5" x="711.5" xlink:href="#white"/>
+  <use id="svg_396" y="50.5" x="711.5" xlink:href="#white"/>
+  <use id="svg_397" y="60.5" x="711.5" xlink:href="#white"/>
+  <use id="svg_398" y="80.5" x="711.5" xlink:href="#white"/>
+  <use id="svg_399" y="90.5" x="711.5" xlink:href="#white"/>
+  <use id="svg_400" y="20.5" x="721.5" xlink:href="#white"/>
+  <use id="svg_401" y="40.5" x="721.5" xlink:href="#teal"/>
+  <use id="svg_402" y="60.5" x="721.5" xlink:href="#teal"/>
+  <use id="svg_403" y="70.5" x="721.5" xlink:href="#white"/>
+  <use id="svg_404" y="80.5" x="721.5" xlink:href="#teal"/>
+  <use id="svg_405" y="100.5" x="721.5" xlink:href="#white"/>
+  <use id="svg_406" y="20.5" x="731.5" xlink:href="#white"/>
+  <use id="svg_407" y="30.5" x="731.5" xlink:href="#teal"/>
+  <use id="svg_408" y="50.5" x="731.5" xlink:href="#white"/>
+  <use id="svg_409" y="70.5" x="731.5" xlink:href="#white"/>
+  <use id="svg_410" y="90.5" x="731.5" xlink:href="#teal"/>
+  <use id="svg_411" y="100.5" x="731.5" xlink:href="#white"/>
+  <use id="svg_412" y="20.5" x="741.5" xlink:href="#white"/>
+  <use id="svg_413" y="40.5" x="741.5" xlink:href="#teal"/>
+  <use id="svg_414" y="50.5" x="741.5" xlink:href="#white"/>
+  <use id="svg_415" y="60.5" x="741.5" xlink:href="#teal"/>
+  <use id="svg_416" y="70.5" x="741.5" xlink:href="#white"/>
+  <use id="svg_417" y="80.5" x="741.5" xlink:href="#teal"/>
+  <use id="svg_418" y="100.5" x="741.5" xlink:href="#white"/>
+  <use id="svg_419" y="20.5" x="751.5" xlink:href="#white"/>
+  <use id="svg_420" y="30.5" x="751.5" xlink:href="#teal"/>
+  <use id="svg_421" y="50.5" x="751.5" xlink:href="#white"/>
+  <use id="svg_422" y="70.5" x="751.5" xlink:href="#teal"/>
+  <use id="svg_423" y="80.5" x="751.5" xlink:href="#white"/>
+  <use id="svg_424" y="90.5" x="751.5" xlink:href="#teal"/>
+  <use id="svg_425" y="100.5" x="751.5" xlink:href="#white"/>
+  <use id="svg_426" y="20.5" x="761.5" xlink:href="#white"/>
+  <use id="svg_427" y="40.5" x="761.5" xlink:href="#teal"/>
+  <use id="svg_428" y="50.5" x="761.5" xlink:href="#white"/>
+  <use id="svg_429" y="60.5" x="761.5" xlink:href="#teal"/>
+  <use id="svg_430" y="80.5" x="761.5" xlink:href="#teal"/>
+  <use id="svg_431" y="100.5" x="761.5" xlink:href="#white"/>
+  <use id="svg_432" y="30.5" x="771.5" xlink:href="#white"/>
+  <use id="svg_433" y="40.5" x="771.5" xlink:href="#white"/>
+  <use id="svg_434" y="60.5" x="771.5" xlink:href="#white"/>
+  <use id="svg_435" y="70.5" x="771.5" xlink:href="#white"/>
+  <use id="svg_436" y="80.5" x="771.5" xlink:href="#white"/>
+  <use id="svg_437" y="90.5" x="771.5" xlink:href="#white"/>
+  <use id="svg_438" y="20.5" x="791.5" xlink:href="#white"/>
+  <use id="svg_439" y="30.5" x="791.5" xlink:href="#white"/>
+  <use id="svg_440" y="40.5" x="791.5" xlink:href="#white"/>
+  <use id="svg_441" y="50.5" x="791.5" xlink:href="#white"/>
+  <use id="svg_442" y="60.5" x="791.5" xlink:href="#white"/>
+  <use id="svg_443" y="0.5" x="801.5" xlink:href="#white"/>
+  <use id="svg_444" y="10.5" x="801.5" xlink:href="#white"/>
+  <use id="svg_445" y="20.5" x="801.5" xlink:href="#white"/>
+  <use id="svg_446" y="40.5" x="801.5" xlink:href="#yellow"/>
+  <use id="svg_447" y="50.5" x="801.5" xlink:href="#white"/>
+  <use id="svg_448" y="60.5" x="801.5" xlink:href="#white"/>
+  <use id="svg_449" y="70.5" x="801.5" xlink:href="#white"/>
+  <use id="svg_450" y="80.5" x="801.5" xlink:href="#white"/>
+  <use id="svg_451" y="90.5" x="801.5" xlink:href="#white"/>
+  <use id="svg_452" y="0.5" x="811.5" xlink:href="#white"/>
+  <use id="svg_453" y="10.5" x="811.5" xlink:href="#yellow"/>
+  <use id="svg_454" y="30.5" x="811.5" xlink:href="#yellow"/>
+  <use id="svg_455" y="50.5" x="811.5" xlink:href="#yellow"/>
+  <use id="svg_456" y="70.5" x="811.5" xlink:href="#yellow"/>
+  <use id="svg_457" y="90.5" x="811.5" xlink:href="#yellow"/>
+  <use id="svg_458" y="100.5" x="811.5" xlink:href="#white"/>
+  <use id="svg_459" y="0.5" x="821.5" xlink:href="#white"/>
+  <use id="svg_460" y="20.5" x="821.5" xlink:href="#yellow"/>
+  <use id="svg_461" y="40.5" x="821.5" xlink:href="#yellow"/>
+  <use id="svg_462" y="60.5" x="821.5" xlink:href="#yellow"/>
+  <use id="svg_463" y="80.5" x="821.5" xlink:href="#yellow"/>
+  <use id="svg_464" y="100.5" x="821.5" xlink:href="#white"/>
+  <use id="svg_465" y="0.5" x="831.5" xlink:href="#white"/>
+  <use id="svg_466" y="10.5" x="831.5" xlink:href="#white"/>
+  <use id="svg_467" y="20.5" x="831.5" xlink:href="#white"/>
+  <use id="svg_468" y="30.5" x="831.5" xlink:href="#yellow"/>
+  <use id="svg_469" y="50.5" x="831.5" xlink:href="#white"/>
+  <use id="svg_470" y="60.5" x="831.5" xlink:href="#white"/>
+  <use id="svg_471" y="70.5" x="831.5" xlink:href="#white"/>
+  <use id="svg_472" y="90.5" x="831.5" xlink:href="#yellow"/>
+  <use id="svg_473" y="100.5" x="831.5" xlink:href="#white"/>
+  <use id="svg_474" y="20.5" x="841.5" xlink:href="#white"/>
+  <use id="svg_475" y="40.5" x="841.5" xlink:href="#yellow"/>
+  <use id="svg_476" y="50.5" x="841.5" xlink:href="#white"/>
+  <use id="svg_477" y="80.5" x="841.5" xlink:href="#white"/>
+  <use id="svg_478" y="100.5" x="841.5" xlink:href="#white"/>
+  <use id="svg_479" y="20.5" x="851.5" xlink:href="#white"/>
+  <use id="svg_480" y="30.5" x="851.5" xlink:href="#white"/>
+  <use id="svg_481" y="40.5" x="851.5" xlink:href="#white"/>
+  <use id="svg_482" y="50.5" x="851.5" xlink:href="#white"/>
+  <use id="svg_483" y="80.5" x="851.5" xlink:href="#white"/>
+  <use id="svg_484" y="90.5" x="851.5" xlink:href="#white"/>
+  <use id="svg_485" y="100.5" x="851.5" xlink:href="#white"/>
+  <use id="svg_486" y="40.5" x="871.5" xlink:href="#white"/>
+  <use id="svg_487" y="50.5" x="871.5" xlink:href="#white"/>
+  <use id="svg_488" y="60.5" x="871.5" xlink:href="#white"/>
+  <use id="svg_489" y="70.5" x="871.5" xlink:href="#white"/>
+  <use id="svg_490" y="80.5" x="871.5" xlink:href="#white"/>
+  <use id="svg_491" y="30.5" x="881.5" xlink:href="#white"/>
+  <use id="svg_492" y="40.5" x="881.5" xlink:href="#ocean"/>
+  <use id="svg_493" y="60.5" x="881.5" xlink:href="#ocean"/>
+  <use id="svg_494" y="80.5" x="881.5" xlink:href="#ocean"/>
+  <use id="svg_495" y="90.5" x="881.5" xlink:href="#white"/>
+  <use id="svg_496" y="20.5" x="891.5" xlink:href="#white"/>
+  <use id="svg_497" y="30.5" x="891.5" xlink:href="#ocean"/>
+  <use id="svg_498" y="50.5" x="891.5" xlink:href="#white"/>
+  <use id="svg_499" y="60.5" x="891.5" xlink:href="#white"/>
+  <use id="svg_500" y="70.5" x="891.5" xlink:href="#white"/>
+  <use id="svg_501" y="90.5" x="891.5" xlink:href="#ocean"/>
+  <use id="svg_502" y="100.5" x="891.5" xlink:href="#white"/>
+  <use id="svg_503" y="20.5" x="901.5" xlink:href="#white"/>
+  <use id="svg_504" y="40.5" x="901.5" xlink:href="#ocean"/>
+  <use id="svg_505" y="50.5" x="901.5" xlink:href="#white"/>
+  <use id="svg_506" y="70.5" x="901.5" xlink:href="#white"/>
+  <use id="svg_507" y="80.5" x="901.5" xlink:href="#ocean"/>
+  <use id="svg_508" y="100.5" x="901.5" xlink:href="#white"/>
+  <use id="svg_509" y="20.5" x="911.5" xlink:href="#white"/>
+  <use id="svg_510" y="30.5" x="911.5" xlink:href="#ocean"/>
+  <use id="svg_511" y="50.5" x="911.5" xlink:href="#white"/>
+  <use id="svg_512" y="60.5" x="911.5" xlink:href="#white"/>
+  <use id="svg_513" y="70.5" x="911.5" xlink:href="#white"/>
+  <use id="svg_514" y="90.5" x="911.5" xlink:href="#ocean"/>
+  <use id="svg_515" y="100.5" x="911.5" xlink:href="#white"/>
+  <use id="svg_516" y="30.5" x="921.5" xlink:href="#white"/>
+  <use id="svg_517" y="40.5" x="921.5" xlink:href="#ocean"/>
+  <use id="svg_518" y="60.5" x="921.5" xlink:href="#ocean"/>
+  <use id="svg_519" y="80.5" x="921.5" xlink:href="#ocean"/>
+  <use id="svg_520" y="90.5" x="921.5" xlink:href="#white"/>
+  <use id="svg_521" y="20.5" x="931.5" xlink:href="#white"/>
+  <use id="svg_522" y="30.5" x="931.5" xlink:href="#ocean"/>
+  <use id="svg_523" y="50.5" x="931.5" xlink:href="#ocean"/>
+  <use id="svg_524" y="70.5" x="931.5" xlink:href="#ocean"/>
+  <use id="svg_525" y="90.5" x="931.5" xlink:href="#ocean"/>
+  <use id="svg_526" y="100.5" x="931.5" xlink:href="#white"/>
+  <use id="svg_527" y="20.5" x="941.5" xlink:href="#white"/>
+  <use id="svg_528" y="30.5" x="941.5" xlink:href="#white"/>
+  <use id="svg_529" y="40.5" x="941.5" xlink:href="#white"/>
+  <use id="svg_530" y="50.5" x="941.5" xlink:href="#white"/>
+  <use id="svg_531" y="60.5" x="941.5" xlink:href="#white"/>
+  <use id="svg_532" y="70.5" x="941.5" xlink:href="#white"/>
+  <use id="svg_533" y="80.5" x="941.5" xlink:href="#white"/>
+  <use id="svg_534" y="90.5" x="941.5" xlink:href="#white"/>
+  <use id="svg_535" y="100.5" x="941.5" xlink:href="#white"/>
+  <use id="svg_536" y="20.5" x="961.5" xlink:href="#white"/>
+  <use id="svg_537" y="30.5" x="961.5" xlink:href="#white"/>
+  <use id="svg_538" y="40.5" x="961.5" xlink:href="#white"/>
+  <use id="svg_539" y="50.5" x="961.5" xlink:href="#white"/>
+  <use id="svg_540" y="60.5" x="961.5" xlink:href="#white"/>
+  <use id="svg_541" y="70.5" x="961.5" xlink:href="#white"/>
+  <use id="svg_542" y="80.5" x="961.5" xlink:href="#white"/>
+  <use id="svg_543" y="90.5" x="961.5" xlink:href="#white"/>
+  <use id="svg_544" y="100.5" x="961.5" xlink:href="#white"/>
+  <use id="svg_545" y="20.5" x="971.5" xlink:href="#white"/>
+  <use id="svg_546" y="30.5" x="971.5" xlink:href="#purple"/>
+  <use id="svg_547" y="50.5" x="971.5" xlink:href="#purple"/>
+  <use id="svg_548" y="70.5" x="971.5" xlink:href="#purple"/>
+  <use id="svg_549" y="90.5" x="971.5" xlink:href="#purple"/>
+  <use id="svg_550" y="100.5" x="971.5" xlink:href="#white"/>
+  <use id="svg_551" y="20.5" x="981.5" xlink:href="#white"/>
+  <use id="svg_552" y="40.5" x="981.5" xlink:href="#white"/>
+  <use id="svg_553" y="50.5" x="981.5" xlink:href="#white"/>
+  <use id="svg_554" y="60.5" x="981.5" xlink:href="#white"/>
+  <use id="svg_555" y="80.5" x="981.5" xlink:href="#white"/>
+  <use id="svg_556" y="90.5" x="981.5" xlink:href="#white"/>
+  <use id="svg_557" y="100.5" x="981.5" xlink:href="#white"/>
+  <use id="svg_558" y="20.5" x="991.5" xlink:href="#white"/>
+  <use id="svg_559" y="30.5" x="991.5" xlink:href="#purple"/>
+  <use id="svg_560" y="40.5" x="991.5" xlink:href="#white"/>
+  <use id="svg_561" y="60.5" x="991.5" xlink:href="#white"/>
+  <use id="svg_562" y="70.5" x="991.5" xlink:href="#purple"/>
+  <use id="svg_563" y="80.5" x="991.5" xlink:href="#white"/>
+  <use id="svg_564" y="20.5" x="1001.5" xlink:href="#white"/>
+  <use id="svg_565" y="40.5" x="1001.5" xlink:href="#purple"/>
+  <use id="svg_566" y="50.5" x="1001.5" xlink:href="#white"/>
+  <use id="svg_567" y="60.5" x="1001.5" xlink:href="#white"/>
+  <use id="svg_568" y="80.5" x="1001.5" xlink:href="#purple"/>
+  <use id="svg_569" y="90.5" x="1001.5" xlink:href="#white"/>
+  <use id="svg_570" y="100.5" x="1001.5" xlink:href="#white"/>
+  <use id="svg_571" y="30.5" x="1011.5" xlink:href="#white"/>
+  <use id="svg_572" y="50.5" x="1011.5" xlink:href="#purple"/>
+  <use id="svg_573" y="70.5" x="1011.5" xlink:href="#white"/>
+  <use id="svg_574" y="90.5" x="1011.5" xlink:href="#purple"/>
+  <use id="svg_575" y="100.5" x="1011.5" xlink:href="#white"/>
+  <use id="svg_576" y="40.5" x="1021.5" xlink:href="#white"/>
+  <use id="svg_577" y="50.5" x="1021.5" xlink:href="#white"/>
+  <use id="svg_578" y="60.5" x="1021.5" xlink:href="#white"/>
+  <use id="svg_579" y="80.5" x="1021.5" xlink:href="#white"/>
+  <use id="svg_580" y="90.5" x="1021.5" xlink:href="#white"/>
+  <use id="svg_581" y="100.5" x="1021.5" xlink:href="#white"/>
+  <use id="svg_582" y="50.5" x="1041.5" xlink:href="#white"/>
+  <use id="svg_583" y="60.5" x="1041.5" xlink:href="#white"/>
+  <use id="svg_584" y="70.5" x="1041.5" xlink:href="#white"/>
+  <use id="svg_585" y="80.5" x="1041.5" xlink:href="#white"/>
+  <use id="svg_586" y="90.5" x="1041.5" xlink:href="#white"/>
+  <use id="svg_587" y="40.5" x="1051.5" xlink:href="#white"/>
+  <use id="svg_588" y="50.5" x="1051.5" xlink:href="#ribbon"/>
+  <use id="svg_589" y="70.5" x="1051.5" xlink:href="#ribbon"/>
+  <use id="svg_590" y="90.5" x="1051.5" xlink:href="#ribbon"/>
+  <use id="svg_591" y="100.5" x="1051.5" xlink:href="#white"/>
+  <use id="svg_592" y="40.5" x="1061.5" xlink:href="#white"/>
+  <use id="svg_593" y="60.5" x="1061.5" xlink:href="#white"/>
+  <use id="svg_594" y="70.5" x="1061.5" xlink:href="#white"/>
+  <use id="svg_595" y="80.5" x="1061.5" xlink:href="#white"/>
+  <use id="svg_596" y="100.5" x="1061.5" xlink:href="#white"/>
+  <use id="svg_597" y="0.5" x="1071.5" xlink:href="#white"/>
+  <use id="svg_598" y="10.5" x="1071.5" xlink:href="#white"/>
+  <use id="svg_599" y="20.5" x="1071.5" xlink:href="#white"/>
+  <use id="svg_600" y="30.5" x="1071.5" xlink:href="#white"/>
+  <use id="svg_601" y="40.5" x="1071.5" xlink:href="#white"/>
+  <use id="svg_602" y="50.5" x="1071.5" xlink:href="#ribbon"/>
+  <use id="svg_603" y="60.5" x="1071.5" xlink:href="#white"/>
+  <use id="svg_604" y="80.5" x="1071.5" xlink:href="#white"/>
+  <use id="svg_605" y="90.5" x="1071.5" xlink:href="#ribbon"/>
+  <use id="svg_606" y="100.5" x="1071.5" xlink:href="#white"/>
+  <use id="svg_607" y="0.5" x="1081.5" xlink:href="#white"/>
+  <use id="svg_608" y="20.5" x="1081.5" xlink:href="#ribbon"/>
+  <use id="svg_609" y="40.5" x="1081.5" xlink:href="#ribbon"/>
+  <use id="svg_610" y="60.5" x="1081.5" xlink:href="#white"/>
+  <use id="svg_611" y="70.5" x="1081.5" xlink:href="#white"/>
+  <use id="svg_612" y="80.5" x="1081.5" xlink:href="#white"/>
+  <use id="svg_613" y="100.5" x="1081.5" xlink:href="#white"/>
+  <use id="svg_614" y="0.5" x="1091.5" xlink:href="#white"/>
+  <use id="svg_615" y="10.5" x="1091.5" xlink:href="#ribbon"/>
+  <use id="svg_616" y="30.5" x="1091.5" xlink:href="#ribbon"/>
+  <use id="svg_617" y="50.5" x="1091.5" xlink:href="#ribbon"/>
+  <use id="svg_618" y="70.5" x="1091.5" xlink:href="#ribbon"/>
+  <use id="svg_619" y="90.5" x="1091.5" xlink:href="#ribbon"/>
+  <use id="svg_620" y="100.5" x="1091.5" xlink:href="#white"/>
+  <use id="svg_621" y="0.5" x="1101.5" xlink:href="#white"/>
+  <use id="svg_622" y="10.5" x="1101.5" xlink:href="#white"/>
+  <use id="svg_623" y="20.5" x="1101.5" xlink:href="#white"/>
+  <use id="svg_624" y="30.5" x="1101.5" xlink:href="#white"/>
+  <use id="svg_625" y="40.5" x="1101.5" xlink:href="#white"/>
+  <use id="svg_626" y="50.5" x="1101.5" xlink:href="#white"/>
+  <use id="svg_627" y="60.5" x="1101.5" xlink:href="#white"/>
+  <use id="svg_628" y="70.5" x="1101.5" xlink:href="#white"/>
+  <use id="svg_629" y="80.5" x="1101.5" xlink:href="#white"/>
+  <use id="svg_630" y="90.5" x="1101.5" xlink:href="#white"/>
+  <use id="svg_631" y="100.5" x="1101.5" xlink:href="#white"/>
+ </g>
 </svg>

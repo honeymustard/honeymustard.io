@@ -1,7 +1,7 @@
 <template>
   <div class="emulator" v-if="open">
     <div class="emulator__head">
-      <h1>Honeymustard.io</h1>
+      <h1>Emulator</h1>
       <div class="emulator__controls">
         <span @click="open = false" title="Close emulator"></span>
       </div>
@@ -13,7 +13,7 @@
             <div class="emulator__text"><span class="is-cwd" v-if="line.cwd">{{line.cwd}}&gt; </span>{{line.text}}</div>
           </template>
           <template v-else-if="line.type === 'link'">
-            <div class="emulator__link">=&gt; <a :href="line.url" target="_blank">{{line.url}}</a></div>
+            <div class="emulator__link"><a :href="line.url" target="_blank">{{line.url}}</a></div>
           </template>
         </li>
       </ul>
@@ -33,6 +33,7 @@
   import Projects from 'raw-loader!@/static/projects.md';
   import Links from 'raw-loader!@/static/links.md';
   import Stack from 'raw-loader!@/static/stack.md';
+  import Horse from 'raw-loader!@/static/horse.txt';
 
   @Component
   export default class Emulator extends Vue {
@@ -49,10 +50,11 @@
         .mkdir('adrian', '2020-10-02');
 
       home
-        .touch('resume', '2020-10-02', Resume)
-        .touch('projects', '2020-10-02', Projects)
-        .touch('links', '2020-10-03', Links)
-        .touch('stack', '2020-10-06', Stack);
+        .touch('resume.md', '2020-10-02', Resume)
+        .touch('projects.md', '2020-10-02', Projects)
+        .touch('links.md', '2020-10-03', Links)
+        .touch('stack.md', '2020-10-06', Stack)
+        .touch('horse.txt', '2020-10-09', Horse);
 
       this.shell.cd('users/adrian');
     }
@@ -90,7 +92,9 @@
           case '': break;
           case 'cls':
           case 'clear':
+            let last: any = this.lines.pop();
             this.lines = new Array();
+            this.lines.push(last);
             break;
           case 'pwd': 
             this.pushText(this.shell.pwd());
@@ -132,18 +136,17 @@
             throw new Error('Not implemented');
             break;
           case 'cat':
-            this.shell.cat(args[1]).split('\n').forEach(l => {
-              if (l.startsWith('http')) this.pushLink(l);
-              else this.pushText(l || ' ');
+            this.shell.cat(args[1]).split('\n').forEach((l, i) => {
+              let n = (i + 1).toString().padEnd(3);
+              if (l.startsWith('http')) this.pushText(`${n} ${l}`);
+              else this.pushText(`${n} ${l}` || ' ');
             });
             break;
           case 'version':
             this.pushText(this.shell.version);
             break;
           case 'whois':
-            this.pushText(`Adrian Solumsmo (${moment().diff('1988-08-23', 'years')})`);
-            this.pushText('adrian.solumsmo@gmail.com');
-            this.pushText('--');
+            this.pushText(`Adrian Solumsmo (${moment().diff('1988-08-23', 'years')}) <adrian.solumsmo@gmail.com>`);
             this.pushText('.NET & JavaScript developer at Dagens Næringsliv');
             break;
           case 'exit':
@@ -177,9 +180,13 @@
     flex-direction: column;
     box-shadow: 0px 20px 40px -20px #000a;
     display: grid;
-    grid-template-rows: 34px auto 34px;
+    grid-template-rows: 30px auto 34px;
     row-gap: 6px;
     padding: 10px;
+
+    @media (min-width: 600px) {
+      height: 452px;
+    }
 
     ::selection {
       background: #ff5;
@@ -200,7 +207,8 @@
 
     h1 {
       color: $text;
-      font-size: 20px;
+      font-family: 'Roboto Mono', monospace, sans-serif;
+      font-size: 16px;
       font-weight: 400;
       margin: 0;
     }
@@ -212,11 +220,16 @@
 
       span {
         display: inline-block;
-        width: 15px;
-        height: 15px;
+        width: 12px;
+        height: 12px;
         border-radius: 50%;
         background-color: $text;
         cursor: pointer;
+        transition: .2s ease;
+
+        &:hover {
+          background-color: #f59;
+        }
       }
     }
   }
@@ -226,7 +239,7 @@
     overflow: auto;
     scrollbar-width: 4px;
     scrollbar-color: #222;
-    margin-right: 6px;
+    margin-right: 4px;
 
     &::-webkit-scrollbar {
       width: 4px;
@@ -254,6 +267,7 @@
   }
 
   .emulator__link {
+    word-break: break-all;
 
     a {
       color: #ff5;

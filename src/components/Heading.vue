@@ -4,19 +4,18 @@
   </header>
 </template>
 
-<script lang="ts">
-  import { Component, Prop, Vue } from 'vue-property-decorator';
-
-  @Component
-  export default class Heading extends Vue {
-  }
-</script>
-
 <style scoped lang="scss">
   .heading {
+    display: flex;
+    justify-content: center;
+
     img {
       width: 100%;
-      max-width: 100%;
+      max-width: 90%;
+
+      @media (min-width: 500px) {
+        max-width: 80%;
+      }
     }
   }
 </style>
