@@ -13,9 +13,11 @@
       display: block;
       width: 100%;
       max-width: 90%;
+      height: 35px;
 
       @media (min-width: 500px) {
         max-width: 80%;
+        height: auto;
       }
     }
   }
