@@ -10,6 +10,7 @@
     justify-content: center;
 
     img {
+      display: block;
       width: 100%;
       max-width: 90%;
 
