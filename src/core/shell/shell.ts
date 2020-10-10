@@ -17,12 +17,14 @@ export default class Shell {
   }
 
   public rmdir(name: string): void {
+    if (/[^a-zA-z0-9\.\-\+]/.test(name) || ['.', '..'].indexOf(name) !== -1) throw new Error('Invalid directory name');
     let index = this.fs.current.children.findIndex(e => e.name === name && e.type === 'dir');
     if (index !== -1) this.fs.current.children.splice(index, 1);
     else throw new Error('No such directory');
   }
 
   public mkdir(name: string, created: string): void {
+    if (/[^a-zA-z0-9\.\-\+]/.test(name) || ['.', '..'].indexOf(name) !== -1) throw new Error('Invalid directory name');
     let index = this.fs.current.children.findIndex(e => e.name === name && e.type === 'dir');
     if (index !== -1) throw new Error('Directory already exists');
     else this.fs.current.mkdir(name, created);

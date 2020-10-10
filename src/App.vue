@@ -25,6 +25,7 @@
 <style lang="scss">
   html {
     box-sizing: border-box;
+    min-height: 100vh;
   }
   
   *,
@@ -36,6 +37,7 @@
 
   body {
     margin: 0;
+    min-height: inherit;
   }
 
   .app {
@@ -44,6 +46,7 @@
     background:#1582e0;
     background: linear-gradient(180deg, #0371cf 3%, #1582e0 13%);
     padding-top: 20px;
+    min-height: inherit;
 
     @media (min-width: 500px) {
       padding-top: 40px;

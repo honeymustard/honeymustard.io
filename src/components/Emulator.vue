@@ -28,7 +28,7 @@
 <script lang="ts">
   import moment from 'moment';
   import { Component, Prop, Vue } from 'vue-property-decorator';
-  import Shell from '@/core/fs/shell';
+  import Shell from '@/core/shell/shell';
   import Resume from 'raw-loader!@/static/resume.md';
   import Projects from 'raw-loader!@/static/projects.md';
   import Links from 'raw-loader!@/static/links.md';
@@ -283,6 +283,7 @@
 
   .emulator__link,
   .emulator__text {
+    word-break: break-word;
     font-family: 'Roboto Mono', monospace, sans-serif;
     white-space: pre-wrap;
     font-size: 15px;
