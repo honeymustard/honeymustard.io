@@ -175,7 +175,7 @@
 
   .emulator {
     background: #222;
-    height: 495px;
+    height: 458px;
     border-radius: 10px;
     flex-direction: column;
     box-shadow: 0px 20px 40px -20px #000a;
@@ -261,9 +261,6 @@
     color: $text;
     padding: 0;
     margin: 0;
-    font-size: 20px;
-    line-height: 1.3;
-    font-weight: 400;
   }
 
   .emulator__link {
@@ -288,7 +285,12 @@
   .emulator__text {
     font-family: 'Roboto Mono', monospace, sans-serif;
     white-space: pre-wrap;
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: 400;
+
+    @media (min-width: 500px) {
+      font-size: 16px;
+    }
 
     .is-cwd {
       color: #fff;

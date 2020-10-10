@@ -1,21 +1,25 @@
-ASP.NET Core: Truly simple type-safe
-framework. The best of all worlds,
-with a limitless supply of packages
-from the .NET universe.
+ASP.NET Core: The best type-safe
+web framework. Has a limitless supply
+of packages .NET packages available.
 
-Express/Node.js:
-Simplicity when speed is key.
-Provides an infinite number of ready
-to use packages. Always keep a node
-server ready.
+Node/Express.js:
+The quickest way to create an api.
+Has an infinite number of packages.
 
 Python:
-The master of manipulation. A must
-have skill in order to obtain and transform
-datasets of any kind. Plays well
-with Mongo databases.
+The best way to transform datasets.
+Has great bindings for MongoDB.
 
-Vue.js
-A super easy JavaScript framework for rapid
-development. Mix with Vuex and TypeScript
-for a dreamy frontend experience.
+Vue.js:
+A simple JavaScript framework.
+Vuex provides state management,
+can be used with TypeScript.
+
+MongoDB:
+A modern database solution with
+fast online hosting. Easy to manage
+via the command line.
+
+Redis:
+Easy to use caching service for all
+types of applications.
