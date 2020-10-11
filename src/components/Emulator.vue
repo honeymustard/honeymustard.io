@@ -1,14 +1,14 @@
 <template>
-  <div class="emulator" v-if="open">
+  <div class="emulator" v-if="state.open">
     <div class="emulator__head">
       <h1>Emulator</h1>
       <div class="emulator__controls">
-        <span @click="open = false" title="Close emulator"></span>
+        <span @click="state.open = false" title="Close emulator"></span>
       </div>
     </div>
-    <div class="emulator__body" ref="body">
+    <div class="emulator__body" ref="bodyRef">
       <ul class="emulator__lines">
-        <li class="emulator__line" v-for="(line, i) in lines" :key="i" :class="`is-${line.type}`">
+        <li class="emulator__line" v-for="(line, i) in state.lines" :key="i" :class="`is-${line.type}`">
           <template v-if="line.type === 'text'">
             <div class="emulator__text"><span class="is-cwd" v-if="line.cwd">{{line.cwd}}&gt; </span>{{line.text}}</div>
           </template>
@@ -20,14 +20,14 @@
     </div>
     <div class="emulator__foot">
       <div class="emulator__pwd">{{shell.pwd()}}&gt;</div>
-      <input class="emulator__input" v-model="input" ref="input" type="text" spellcheck="false" @keydown.enter="handleInput">
+      <input class="emulator__input" v-model="state.input" ref="inputRef" type="text" spellcheck="false" @keydown.enter="handleInput">
     </div>
   </div>
 </template>
 
 <script lang="ts">
+  import { defineComponent, ref, reactive, onMounted, nextTick } from 'vue';
   import moment from 'moment';
-  import { Component, Prop, Vue } from 'vue-property-decorator';
   import Shell from '@/core/shell/shell';
   import Resume from 'raw-loader!@/static/resume.md';
   import Projects from 'raw-loader!@/static/projects.md';
@@ -35,16 +35,20 @@
   import Stack from 'raw-loader!@/static/stack.md';
   import Horse from 'raw-loader!@/static/horse.txt';
 
-  @Component
-  export default class Emulator extends Vue {
-    private open: boolean = true;
-    private input: string = '';
-    private lines: Array<object> = [];
-    private shell: Shell = new Shell();
+  export default defineComponent({
 
-    constructor() {
-      super();
-      let home = this.shell.fs
+    setup() {
+      let bodyRef = ref(null);
+      let inputRef = ref(null);
+      let shell: Shell = new Shell();
+
+      const state = reactive({
+        open: true,
+        input: '',
+        lines: new Array(),
+      });
+
+      let home = shell.fs
         .mkdir('c:', '2020-09-30')
         .mkdir('users', '2020-09-30')
         .mkdir('adrian', '2020-10-02');
@@ -56,118 +60,120 @@
         .touch('stack.md', '2020-10-06', Stack)
         .touch('horse.txt', '2020-10-09', Horse);
 
-      this.shell.cd('users/adrian');
-    }
+      shell.cd('users/adrian');
 
-    public handleInput() {
-      this.pushText(this.input, { cwd: this.shell.pwd() });
-      this.executeCommand(this.input);
-      this.input = '';
+      const handleInput = () => {
+        pushText(state.input, { cwd: shell.pwd() });
+        executeCommand(state.input);
+        state.input = '';
 
-      this.$nextTick(() => {
-        let element = <HTMLElement>this.$refs.body;
-        element.scrollTop = element.scrollHeight;
-      });
-    }
+        nextTick(() => {
+          let element = (bodyRef as any).value;
+          element.scrollTop = element.scrollHeight;
+        });
+      }
 
-    public pushText(text: string, rest: object = {}) {
-      this.lines.push({ type: 'text', text, ...rest });
-    }
+      const pushText = (text: string, rest: object = {}) => {
+        state.lines.push({ type: 'text', text, ...rest });
+      }
 
-    public pushLink(url: string) {
-      this.lines.push({ type: 'link', url });
-    }
+      const pushLink = (url: string) => {
+        state.lines.push({ type: 'link', url });
+      }
 
-    public writeCommand(command: string) {
-      this.input = command;
-      this.handleInput();
-    }
+      const writeCommand = (command: string) => {
+        state.input = command;
+        handleInput();
+      }
 
-    public executeCommand(command: string) {
-      let now = moment();
-      let args = command.split(' ');
+      const executeCommand = (command: string) => {
+        let now = moment();
+        let args = command.split(' ');
 
-      try {
-        switch (args[0]) {
-          case '': break;
-          case 'cls':
-          case 'clear':
-            let last: any = this.lines.pop();
-            this.lines = new Array();
-            this.lines.push(last);
-            break;
-          case 'pwd': 
-            this.pushText(this.shell.pwd());
-            break;
-          case 'ls':
-          case 'dir':
-            this.pushText(`${'created'.padEnd(12)}${'type'.padEnd(8)}name`);
-            this.shell.ls()
-              .map(e => this.pushText(`${e.created.padEnd(12)}${`[${e.type}]`.padEnd(8)}${e.name}`));
-            break;
-          case 'help':
-            this.pushText(`command  param   description`);
-            this.pushText(`ls               list directory contents`);
-            this.pushText(`pwd              print working directory`);
-            this.pushText(`clear            clear screen buffer`);
-            this.pushText(`whois            show whois information`);
-            this.pushText(`version          show version`);
-            this.pushText(`help             show command list`);
-            this.pushText(`cd       [dir]   move into directory`);
-            this.pushText(`mkdir    [dir]   make directory`);
-            this.pushText(`rmdir    [dir]   remove directory`);
-            this.pushText(`cat      [file]  show contents of file`);
-            this.pushText(`touch    [file]  create file`);
-            this.pushText(`rm       [file]  remove file`);
-            break;
-          case 'cd':
-            this.shell.cd(args[1]);
-            break;
-          case 'rm':
-            this.shell.rm(args[1]);
-            break;
-          case 'rmdir':
-            this.shell.rmdir(args[1]);
-            break;
-          case 'mkdir':
-            this.shell.mkdir(args[1], moment().format('YYYY-MM-DD'));
-            break;
-          case 'touch':
-            throw new Error('Not implemented');
-            break;
-          case 'cat':
-            this.shell.cat(args[1]).split('\n').forEach((l, i) => {
-              let n = (i + 1).toString().padEnd(3);
-              if (l.startsWith('http')) this.pushText(`${n} ${l}`);
-              else this.pushText(`${n} ${l}` || ' ');
-            });
-            break;
-          case 'version':
-            this.pushText(this.shell.version);
-            break;
-          case 'whois':
-            this.pushText(`Adrian Solumsmo (${moment().diff('1988-08-23', 'years')}) <adrian.solumsmo@gmail.com>`);
-            this.pushText('.NET & JavaScript developer at Dagens Næringsliv');
-            break;
-          case 'exit':
-          case 'quit':
-            this.$nextTick(() => this.open = false);
-            break;
-          default:
-            this.pushText(`Unknown command`);
-            break;
+        try {
+          switch (args[0]) {
+            case '': break;
+            case 'cls':
+            case 'clear':
+              let last: any = state.lines.pop();
+              state.lines = new Array();
+              state.lines.push(last);
+              break;
+            case 'pwd':
+              pushText(shell.pwd());
+              break;
+            case 'ls':
+            case 'dir':
+              pushText(`${'created'.padEnd(12)}${'type'.padEnd(8)}name`);
+              shell.ls()
+                .map(e => pushText(`${e.created.padEnd(12)}${`[${e.type}]`.padEnd(8)}${e.name}`));
+              break;
+            case 'help':
+              pushText(`command  param   description`);
+              pushText(`ls               list directory contents`);
+              pushText(`pwd              print working directory`);
+              pushText(`clear            clear screen buffer`);
+              pushText(`whois            show whois information`);
+              pushText(`version          show version`);
+              pushText(`help             show command list`);
+              pushText(`cd       [dir]   move into directory`);
+              pushText(`mkdir    [dir]   make directory`);
+              pushText(`rmdir    [dir]   remove directory`);
+              pushText(`cat      [file]  show contents of file`);
+              pushText(`touch    [file]  create file`);
+              pushText(`rm       [file]  remove file`);
+              break;
+            case 'cd':
+              shell.cd(args[1]);
+              break;
+            case 'rm':
+              shell.rm(args[1]);
+              break;
+            case 'rmdir':
+              shell.rmdir(args[1]);
+              break;
+            case 'mkdir':
+              shell.mkdir(args[1], moment().format('YYYY-MM-DD'));
+              break;
+            case 'touch':
+              throw new Error('Not implemented');
+              break;
+            case 'cat':
+              shell.cat(args[1]).split('\n').forEach((l, i) => {
+                let n = (i + 1).toString().padEnd(3);
+                if (l.startsWith('http')) pushText(`${n} ${l}`);
+                else pushText(`${n} ${l}` || ' ');
+              });
+              break;
+            case 'version':
+              pushText(shell.version);
+              break;
+            case 'whois':
+              pushText(`Adrian Solumsmo (${moment().diff('1988-08-23', 'years')}) <adrian.solumsmo@gmail.com>`);
+              pushText('.NET & JavaScript developer at Dagens Næringsliv');
+              break;
+            case 'exit':
+            case 'quit':
+              nextTick(() => state.open = false);
+              break;
+            default:
+              pushText(`Unknown command`);
+              break;
+          }
+        }
+        catch(e) {
+          pushText(e);
         }
       }
-      catch(e) {
-        this.pushText(e);
-      }
-    }
 
-    mounted() {
-      (<HTMLElement>this.$refs.input).focus();
-      this.writeCommand('help');
+      onMounted(() => {
+        (inputRef as any).value.focus();
+        writeCommand('help');
+      });
+
+      return { state, shell, handleInput, bodyRef, inputRef }
     }
-  }
+  })
 </script>
 
 <style scoped lang="scss">

@@ -1,25 +1,21 @@
 <template>
-  <div class="app">
-    <heading></heading>
-    <main class="main">
-      <emulator></emulator>
-    </main>
-  </div>
+  <heading></heading>
+  <main class="main">
+    <emulator></emulator>
+  </main>
 </template>
 
 <script lang="ts">
-  import { Component, Vue } from 'vue-property-decorator';
+  import { defineComponent } from 'vue';
   import Heading from '@/components/Heading.vue';
   import Emulator from '@/components/Emulator.vue';
 
-  @Component({
+  export default defineComponent({
     components: {
       Heading,
       Emulator,
     }
-  })
-
-  export default class App extends Vue {}
+  });
 </script>
 
 <style lang="scss">
@@ -40,7 +36,7 @@
     min-height: inherit;
   }
 
-  .app {
+  #app {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background:#1582e0;
