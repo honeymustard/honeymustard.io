@@ -183,7 +183,6 @@
     background: #222;
     height: 458px;
     border-radius: 10px;
-    flex-direction: column;
     box-shadow: 0px 20px 40px -20px #000a;
     display: grid;
     grid-template-rows: 30px auto 34px;
