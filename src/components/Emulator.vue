@@ -1,9 +1,9 @@
 <template>
-  <div class="emulator" v-if="state.open">
+  <div class="emulator">
     <div class="emulator__head">
       <h1>Emulator</h1>
       <div class="emulator__controls">
-        <span @click="state.open = false" title="Close emulator"></span>
+        <span @click="closeConsole()" title="Close emulator"></span>
       </div>
     </div>
     <div class="emulator__body" ref="bodyRef">
@@ -20,13 +20,14 @@
     </div>
     <div class="emulator__foot">
       <div class="emulator__pwd">{{shell.pwd()}}&gt;</div>
-      <input class="emulator__input" v-model="state.input" ref="inputRef" type="text" spellcheck="false" @keydown.enter="handleInput">
+      <input class="emulator__input" v-model="state.input" ref="inputRef" type="text" spellcheck="false" @keydown.enter="processCommand">
     </div>
   </div>
 </template>
 
 <script lang="ts">
   import { defineComponent, ref, reactive, onMounted, nextTick } from 'vue';
+  import { useStore } from '@/store/store';
   import moment from 'moment';
   import Shell from '@/core/shell/shell';
   import Resume from 'raw-loader!@/static/resume.md';
@@ -41,6 +42,8 @@
       let bodyRef = ref(null);
       let inputRef = ref(null);
       let shell: Shell = new Shell();
+
+      const store = useStore();
 
       const state = reactive({
         open: true,
@@ -62,14 +65,16 @@
 
       shell.cd('users/adrian');
 
-      const handleInput = () => {
+      const processCommand = () => {
         pushText(state.input, { cwd: shell.pwd() });
         executeCommand(state.input);
         state.input = '';
 
         nextTick(() => {
           let element = (bodyRef as any).value;
-          element.scrollTop = element.scrollHeight;
+          if (element) {
+            element.scrollTop = element.scrollHeight;
+          }
         });
       }
 
@@ -83,8 +88,10 @@
 
       const writeCommand = (command: string) => {
         state.input = command;
-        handleInput();
+        processCommand();
       }
+
+      const closeConsole = () => store.commit('setEmulator', false);
 
       const executeCommand = (command: string) => {
         let now = moment();
@@ -154,7 +161,7 @@
               break;
             case 'exit':
             case 'quit':
-              nextTick(() => state.open = false);
+              store.commit('setEmulator', false);
               break;
             default:
               pushText(`Unknown command`);
@@ -171,7 +178,7 @@
         writeCommand('help');
       });
 
-      return { state, shell, handleInput, bodyRef, inputRef }
+      return { state, shell, processCommand, closeConsole, bodyRef, inputRef };
     }
   })
 </script>

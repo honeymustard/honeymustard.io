@@ -1,17 +1,26 @@
 <template>
   <heading></heading>
-  <emulator></emulator>
+  <emulator v-if="open"></emulator>
+  <desktop v-else></desktop>
 </template>
 
 <script lang="ts">
-  import { defineComponent } from 'vue';
+  import { defineComponent, computed } from 'vue';
+  import { useStore } from '@/store/store';
   import Heading from '@/components/Heading.vue';
   import Emulator from '@/components/Emulator.vue';
+  import Desktop from '@/components/Desktop.vue';
 
   export default defineComponent({
     components: {
       Heading,
       Emulator,
+      Desktop,
+    },
+    setup() {
+      const store = useStore();
+      const open = computed(() => store.getters.emulator);
+      return { open };
     }
   });
 </script>
