@@ -41,14 +41,20 @@
   #app {
     padding: 20px 10px 0;
     min-height: inherit;
-    grid-gap: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 
     @media (min-width: 500px) {
       padding-top: 40px;
-      grid-gap: 25px;
+    }
+  }
+
+  .heading {
+    margin-bottom: 20px;
+
+    @media (min-width: 500px) {
+      margin-bottom: 25px;
     }
   }
 

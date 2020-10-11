@@ -185,12 +185,13 @@
     border-radius: 10px;
     box-shadow: 0px 20px 40px -20px #000a;
     display: grid;
-    grid-template-rows: 30px auto 34px;
+    grid-template-rows: 25px auto 30px;
     row-gap: 6px;
     padding: 10px;
 
     @media (min-width: 600px) {
       height: 452px;
+      grid-template-rows: 30px auto 34px;
     }
 
     ::selection {
