@@ -1,11 +1,13 @@
 import { createStore, Store as VuexStore, CommitOptions, DispatchOptions } from 'vuex';
 import { State, state } from './state';
 import { Getters, getters } from './getters';
+import { Actions, actions } from './actions';
 import { Mutations, mutations } from './mutations';
 
 export const store = createStore({
   state,
   getters,
+  actions,
   mutations,
 })
 
@@ -21,7 +23,6 @@ export type Store = Omit<VuexStore<State>, 'getters' | 'commit' | 'dispatch'>
     options?: CommitOptions
   ): ReturnType<Mutations<Store>[K]>
 }
-/*
 & {
   dispatch<K extends keyof Actions>(
     key: K,
@@ -29,7 +30,6 @@ export type Store = Omit<VuexStore<State>, 'getters' | 'commit' | 'dispatch'>
     options?: DispatchOptions
   ): ReturnType<Actions[K]>
 }
-*/
 & {
   getters: {
     [K in keyof Getters]: ReturnType<Getters[K]>
