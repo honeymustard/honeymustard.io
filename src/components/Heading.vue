@@ -1,6 +1,6 @@
 <template>
   <header class="heading">
-    <img src="/honeymustard.svg">
+    <img alt="honeymustard.io" src="/honeymustard.svg">
   </header>
 </template>
 
