@@ -27,7 +27,7 @@
 
 <script lang="ts">
   import { defineComponent, ref, reactive, onMounted, nextTick } from 'vue';
-  import { useStore } from '@/store/store';
+  import { useStore } from 'vuex';
   import moment from 'moment';
   import Shell from '@/core/shell/shell';
   import Resume from 'raw-loader!@/static/resume.md';
@@ -91,7 +91,7 @@
         processCommand();
       }
 
-      const closeConsole = () => store.commit('setEmulator', false);
+      const closeConsole = () => store.commit('setProgram', { name: '' });
 
       const executeCommand = (command: string) => {
         let now = moment();
@@ -161,7 +161,7 @@
               break;
             case 'exit':
             case 'quit':
-              store.commit('setEmulator', false);
+              store.commit('setProgram', { name: '' });
               break;
             default:
               pushText(`Unknown command`);

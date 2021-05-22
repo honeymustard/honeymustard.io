@@ -1,26 +1,29 @@
 <template>
   <heading></heading>
-  <emulator v-if="open"></emulator>
+  <emulator v-if="program.name === 'emulator'"></emulator>
+  <paint v-else-if="program.name === 'paint'" v-bind="program.args"></paint>
   <desktop v-else></desktop>
 </template>
 
 <script lang="ts">
   import { defineComponent, computed } from 'vue';
-  import { useStore } from '@/store/store';
+  import { useStore } from 'vuex';
   import Heading from '@/components/Heading.vue';
-  import Emulator from '@/components/Emulator.vue';
+  import Paint from '@/components/Paint.vue';
   import Desktop from '@/components/Desktop.vue';
+  import Emulator from '@/components/Emulator.vue';
 
   export default defineComponent({
     components: {
       Heading,
-      Emulator,
+      Paint,
       Desktop,
+      Emulator,
     },
     setup() {
       const store = useStore();
-      const open = computed(() => store.getters.emulator);
-      return { open };
+      const program = computed(() => store.getters.program);
+      return { program };
     }
   });
 </script>

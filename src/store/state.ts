@@ -1,5 +1,5 @@
 export const state = {
-  emulator: true,
+  program: { name: 'emulator' },
 }
 
 export type State = typeof state;
